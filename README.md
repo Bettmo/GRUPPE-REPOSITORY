@@ -4,7 +4,7 @@ Test for å se om dette fungerer
 :
 Test 2
 
-hei
+Hei
 
 Trym
 
