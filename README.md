@@ -12,7 +12,7 @@ Trym
 | ---------------- | -------------------- |
 | Herman Kjøsterud Erlingsen | https://github.com/HermanKE/IND-REPOSITORY |
 |Trym Meli Lundby | https://github.com/Trym123/IND-REPOSITORY |
-
+| Umit Yildirim   | https://github.com/yildirimsinop/IND-REPOSITORY |
 
 Umit
 #vinh
