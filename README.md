@@ -10,7 +10,7 @@ Trym
 
 | Gruppemedlemmer: | Link til repository: |
 | ---------------- | -------------------- |
-| Herman Kjøsterud Erlingsen | |
+| Herman Kjøsterud Erlingsen | https://github.com/HermanKE/IND-REPOSITORY |
 
 
 Umit
