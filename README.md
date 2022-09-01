@@ -15,5 +15,4 @@ Trym
 | Umit Yildirim   | https://github.com/yildirimsinop/IND-REPOSITORY |
 | Brage Kjemperud | https://github.com/Bragoony/IND-REPOSITORY- |
 | Vinh Vu Ai Nguyen | https://github.com/vvnguyen00/IND-REPOSITORY |
-Umit
-#vinh
+| Eric | x |
