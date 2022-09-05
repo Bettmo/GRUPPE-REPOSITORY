@@ -1,6 +1,6 @@
 # IS-114
 
-| Gruppemedlemmer: | Link til repository: |
+| Gruppemedlemmer: | Link til GitHub-profil: |
 | ---------------- | -------------------- |
 | Herman Kjøsterud Erlingsen | https://github.com/HermanKE |
 | Trym Meli Lundby | https://github.com/Trym123 |
