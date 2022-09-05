@@ -1,12 +1,4 @@
 # IS-114
-Test for å se om dette fungerer
-
-:
-Test 2
-
-Hei
-
-Trym
 
 | Gruppemedlemmer: | Link til repository: |
 | ---------------- | -------------------- |
