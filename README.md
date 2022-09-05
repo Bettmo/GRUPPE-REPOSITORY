@@ -11,7 +11,7 @@
 
 
 ## Oppgave 4b:
-Prosessen i gruppa om denne oppgaven var bra, noen av oss har jobbet med GitHub tidligere (IT på videregående). GitHub er et avansert system så var litt vanskelig å sette seg inn i med en gang, men gruppa har fått en noenlunde grei forståelse av dette. Vi må få et system slik at vi ikke push/pull-er samtidig slik at det blie mye å merge sammen. 
+Prosessen i gruppa om denne oppgaven var bra, noen av oss har jobbet med GitHub tidligere (IT på videregående). GitHub er et avansert system så var litt vanskelig å sette seg inn i med en gang, men gruppa har fått en noenlunde grei forståelse av dette. Vi må få et system slik at vi ikke push/pull-er samtidig slik at det blir mye å merge sammen. 
 Forståelse: 3
 
 ### *Referat:* 
