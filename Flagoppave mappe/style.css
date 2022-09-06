@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+header{
+    height: 120px;
+    width: 80%;
+    margin: auto;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#flaggene{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 160px;
+}
+.celle{
+    width: 300px;
+    height: 230px;
+    border: solid 1px lightgray;
+    transition: 0.3s;
+}
+.celle canvas{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.celle h4{
+    text-align: center;
+}
+.celle:hover{
+    box-shadow: 0 0 10px #979797;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #979797;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem;
+}
