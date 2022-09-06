@@ -46,4 +46,22 @@ c3.fillRect(100,0,100,60);
 c3.fillStyle = '#006AA7';
 c3.fillRect(100,100,100,60);
 
+let CARcanvas = document.querySelector('#CAR');
+let c4 = CARcanvas.getContext('2d');
 
+c4.fillStyle = '#003082'; // blå
+c4.fillRect(0,0,225,37.5);
+c4.fillStyle = '#ffffff'; // hvit
+c4.fillRect(0,37.5,225,37.5);
+c4.fillStyle = '#289728'; // grønn
+c4.fillRect(0,75,225,37.5);
+c4.fillStyle = '#ffce00'; // gul
+c4.fillRect(0,112.5,225,37.5);
+c4.fillStyle = '#d21034'; // rød
+c4.fillRect(93.75,0,37.5,225);
+let img = new Image(); // oppretter en variabel på bildet
+img.src = "./star.png"; // setter kilde på bildet
+img.onload = () => {
+    // Tegner inn bildet med canvas
+    c4.drawImage(img, 25, 0, 33.75, 33.75);
+}
