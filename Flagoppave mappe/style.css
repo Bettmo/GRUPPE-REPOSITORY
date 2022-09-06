@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     height: 120px;
@@ -41,5 +42,15 @@ footer{
     background-color: #979797;
     position: fixed;
     bottom: 0;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+@media (min-width: 1580px){
+    #flaggene{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 1180px){
+    #flaggene{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
