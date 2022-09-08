@@ -95,3 +95,15 @@ c6.arc(112.5,75,50, 0, 2 * Math.PI);
 c6.closePath();
 c6.fillStyle = 'red';
 c6.fill();
+
+let TYcanvas = document.querySelector('#TY');
+let c7 = TYcanvas.getContext('2d');
+
+c7.fillStyle = 'red'; // rød
+c7.fillRect(0,0,225,150);
+let img2 = new Image(); // oppretter en variabel på bildet
+img2.src = "./tyrkia.png"; // setter kilde på bildet
+img2.onload = () => {
+    // Tegner inn bildet med canvas
+    c7.drawImage(img2, 35, 20, 143, 104);
+}
