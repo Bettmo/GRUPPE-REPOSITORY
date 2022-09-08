@@ -145,3 +145,4 @@ img3.onload = () => {
     // Tegner inn bildet med canvas
     c9.drawImage(img3, 25, 0, 50, 50);
 }
+
