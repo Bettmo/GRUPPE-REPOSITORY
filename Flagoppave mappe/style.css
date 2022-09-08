@@ -35,6 +35,9 @@ header{
 .celle:hover{
     box-shadow: 0 0 10px #979797;
 }
+.graaBak{
+    background-color: #e8e8e8;
+}
 footer{
     height: 80px;
     width: 100%;
