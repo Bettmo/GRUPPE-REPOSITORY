@@ -24,4 +24,7 @@ Gjøre ferdig resten av denne oppgaven, og levere inn
 
 **Torsdag (08/09/22):**
 Annet gruppearbeid, plan er å begynne på Flagg-oppgaven
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f620c48716cb2a6c9c6163b2f14bfe53c3076bc
