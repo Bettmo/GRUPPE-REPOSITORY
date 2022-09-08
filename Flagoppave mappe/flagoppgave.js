@@ -156,3 +156,14 @@ c10.fillStyle = '#EF3340';
 c10.fillRect(0, 50, 225, 50);
 c10.fillStyle = '#509E2F';
 c10.fillRect(0, 100, 225, 50);
+
+let DEcanvas = document.querySelector('#Tyskland');
+let c11 = DEcanvas.getContext('2d');
+
+c11.fillStyle = '#000000';
+c11.fillRect(0, 0, 225, 50);
+c11.fillStyle = '#DD0000';
+c11.fillRect(0, 50, 225, 50);
+c11.fillStyle = '#FFCC00';
+c11.fillRect(0, 100, 225, 50);
+
