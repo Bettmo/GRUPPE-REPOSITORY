@@ -139,10 +139,12 @@ c9.moveTo(0, 0);
 c9.lineTo(95, 75);
 c9.lineTo(0, 150);
 c9.fill();
-let img3 = new Image(); // oppretter en variabel på bildet
-img3.src = "./star2.png"; // setter kilde på bildet
-img3.onload = () => {
+let img4 = new Image(); // oppretter en variabel på bildet
+img4.src = "./star2.png"; // setter kilde på bildet
+img4.onload = () => {
     // Tegner inn bildet med canvas
     c9.drawImage(img3, 25, 0, 50, 50);
 }
+
+    c9.drawImage(img4, 6,47, 50, 50);
 
