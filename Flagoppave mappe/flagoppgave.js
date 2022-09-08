@@ -184,3 +184,9 @@ c12.fillStyle = '#024fa2';
 c12.fillRect(0, 87, 225, 50);
 c12.fillStyle = '#ffffff';
 c12.fillRect(0, 108, 225, 50);
+c12.beginPath();
+c12.arc(60, 53, 29, 0, 2 * Math.PI);
+c12.fill()
+c12.fillStyle = '#ffffff';
+c12.stroke()
+c12.closePath();
