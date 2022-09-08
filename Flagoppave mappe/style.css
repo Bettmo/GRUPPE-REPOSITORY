@@ -57,3 +57,7 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+#Crister{
+    height: 150;
+    width: 225;
+}
