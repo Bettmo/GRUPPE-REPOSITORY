@@ -107,3 +107,15 @@ img2.onload = () => {
     // Tegner inn bildet med canvas
     c7.drawImage(img2, 35, 20, 143, 104);
 }
+
+let basedcanvas = document.querySelector('#based');
+let c8 = basedcanvas.getContext('2d');
+
+c8.fillStyle = 'red'; // rød
+c8.fillRect(0,0,225,130);
+let img3 = new Image(); // oppretter en variabel på bildet
+img3.src = "https://cdn.discordapp.com/attachments/1012068343194341487/1017395953583538307/unknown.png"; // setter kilde på bildet
+img3.onload = () => {
+    // Tegner inn bildet med canvas
+    c8.drawImage(img3, 15, 15, 30, 30);
+}
