@@ -99,7 +99,7 @@ c6.fill();
 let TYcanvas = document.querySelector('#TY');
 let c7 = TYcanvas.getContext('2d');
 
-c7.fillStyle = 'red'; // rød
+c7.fillStyle = '#E30A17'; // rød
 c7.fillRect(0,0,225,150);
 let img2 = new Image(); // oppretter en variabel på bildet
 img2.src = "./tyrkia.png"; // setter kilde på bildet
@@ -111,11 +111,37 @@ img2.onload = () => {
 let basedcanvas = document.querySelector('#based');
 let c8 = basedcanvas.getContext('2d');
 
-c8.fillStyle = 'red'; // rød
+c8.fillStyle = '#CC0000'; // rød
 c8.fillRect(0,0,225,130);
 let img3 = new Image(); // oppretter en variabel på bildet
 img3.src = "https://cdn.discordapp.com/attachments/1012068343194341487/1017395953583538307/unknown.png"; // setter kilde på bildet
 img3.onload = () => {
     // Tegner inn bildet med canvas
     c8.drawImage(img3, 15, 15, 30, 30);
+}
+
+let CUcanvas = document.querySelector('#CU');
+let c9 = CUcanvas.getContext('2d');
+
+c9.fillStyle = '#002590'; // blå
+c9.fillRect(0,0,225,30);
+c9.fillStyle = '#ffffff'; // hvit
+c9.fillRect(0,30,225,30);
+c9.fillStyle = '#002590'; // blå
+c9.fillRect(0,60,225,30);
+c9.fillStyle = '#ffffff'; // hvit
+c9.fillRect(0,90,225,30);
+c9.fillStyle = '#002590'; // blå
+c9.fillRect(0,120,225,30); 90.93
+c9.fillStyle = '#CC0D0D';
+c9.beginPath();
+c9.moveTo(0, 0);
+c9.lineTo(95, 75);
+c9.lineTo(0, 150);
+c9.fill();
+let img3 = new Image(); // oppretter en variabel på bildet
+img3.src = "./star2.png"; // setter kilde på bildet
+img3.onload = () => {
+    // Tegner inn bildet med canvas
+    c9.drawImage(img3, 25, 0, 50, 50);
 }
