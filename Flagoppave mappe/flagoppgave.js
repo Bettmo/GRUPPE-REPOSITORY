@@ -167,3 +167,20 @@ c11.fillRect(0, 50, 225, 50);
 c11.fillStyle = '#FFCC00';
 c11.fillRect(0, 100, 225, 50);
 
+let NKcanvas = document.querySelector('#NKorea');
+let c12 = NKcanvas.getContext('2d');
+
+c12.fillStyle = '#024fa2';
+c12.fillRect(0, 0, 225, 50);
+c12.fillStyle = '#ffffff';
+c12.fillRect(0, 18, 225, 50);
+c12.fillStyle = '#ed1c27';
+c12.fillRect(0, 21, 225, 50);
+c12.fillStyle = '#ed1c27';
+c12.fillRect(0, 51, 225, 50);
+c12.fillStyle = '#ffffff';
+c12.fillRect(0, 84, 225, 50);
+c12.fillStyle = '#024fa2';
+c12.fillRect(0, 87, 225, 50);
+c12.fillStyle = '#ffffff';
+c12.fillRect(0, 108, 225, 50);
