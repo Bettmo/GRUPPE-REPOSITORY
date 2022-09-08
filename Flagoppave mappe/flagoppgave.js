@@ -143,8 +143,16 @@ let img4 = new Image(); // oppretter en variabel på bildet
 img4.src = "./star2.png"; // setter kilde på bildet
 img4.onload = () => {
     // Tegner inn bildet med canvas
-    c9.drawImage(img3, 25, 0, 50, 50);
+    c9.drawImage(img4, 6,47, 50, 50);
 }
 
-    c9.drawImage(img4, 6,47, 50, 50);
 
+let AZcanvas = document.querySelector('#AZ');
+let c10 = AZcanvas.getContext('2d');
+
+c10.fillStyle = '#00B5E2';
+c10.fillRect(0, 0, 225, 50);
+c10.fillStyle = '#EF3340';
+c10.fillRect(0, 50, 225, 50);
+c10.fillStyle = '#509E2F';
+c10.fillRect(0, 100, 225, 50);
