@@ -65,3 +65,37 @@ img.onload = () => {
     // Tegner inn bildet med canvas
     c4.drawImage(img, 25, 0, 33.75, 33.75);
 }
+
+
+let gronnland = document.querySelector('#gronnland');
+let c5 = gronnland.getContext('2d');
+
+let japan = document.querySelector('#japan');
+let c6 = japan.getContext('2d');
+
+c5.fillStyle = 'red';
+c5.fillRect(0,75,300,150);
+c5.beginPath();
+c5.arc(105,75,50, 40.84, 2 * Math.PI);
+c5.closePath();
+c5.fillStyle = 'red';
+c5.fill();
+
+
+
+c5.beginPath();
+c5.arc(105,75,50,50.25, 1* Math.PI);
+c5.fill();
+c5.fillstyle = 'white';
+c5.stroke();
+c5.closePath();
+
+
+c6.fillStyle = 'white';
+c6.fillRect(1,1,299,149);
+c6.beginPath();
+c6.arc(150,75,50, 0, 2 * Math.PI);
+c6.closePath();
+c6.fillStyle = 'red';
+c6.fill();
+c6.stroke();
