@@ -74,17 +74,16 @@ c5.fillStyle = 'red'; // rød firkant
 c5.fillRect(0,75,225,150);
 c5.fillStyle = 'white'; // hvit firkant
 c5.fillRect(0,0,225,75);
+c5.beginPath(); // hvit halvsirkel
+c5.arc(90,75,50,50.25, 1* Math.PI);
+c5.fill();
+c5.fillstyle = 'white';
+c5.closePath();
 c5.beginPath(); // rød halvsirkel
 c5.arc(90,75,50, 40.84, 2 * Math.PI);
 c5.closePath();
 c5.fillStyle = 'red';
 c5.fill();
-c5.beginPath(); // hvit halvsirkel
-c5.arc(90,75,50,50.25, 1* Math.PI);
-c5.fill();
-c5.fillstyle = 'white';
-c5.stroke();
-c5.closePath();
 
 let japan = document.querySelector('#japan');
 let c6 = japan.getContext('2d');
