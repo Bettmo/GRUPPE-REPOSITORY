@@ -91,7 +91,7 @@ let c6 = japan.getContext('2d');
 c6.fillStyle = 'white'; // hvit
 c6.fillRect(1,1,225,150);
 c6.beginPath(); // rød sirkel
-c6.arc(112.5,75,50, 0, 2 * Math.PI);
+c6.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c6.closePath();
 c6.fillStyle = 'red';
 c6.fill();
