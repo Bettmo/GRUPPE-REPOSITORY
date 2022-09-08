@@ -170,23 +170,28 @@ c11.fillRect(0, 100, 225, 50);
 let NKcanvas = document.querySelector('#NKorea');
 let c12 = NKcanvas.getContext('2d');
 
-c12.fillStyle = '#024fa2';
+c12.fillStyle = '#024fa2'; // Blå
 c12.fillRect(0, 0, 225, 50);
-c12.fillStyle = '#ffffff';
+c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 18, 225, 50);
-c12.fillStyle = '#ed1c27';
+c12.fillStyle = '#ed1c27'; // Rød
 c12.fillRect(0, 21, 225, 50);
-c12.fillStyle = '#ed1c27';
+c12.fillStyle = '#ed1c27'; // Rød
 c12.fillRect(0, 51, 225, 50);
-c12.fillStyle = '#ffffff';
+c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 84, 225, 50);
-c12.fillStyle = '#024fa2';
+c12.fillStyle = '#024fa2'; // Blå
 c12.fillRect(0, 87, 225, 50);
-c12.fillStyle = '#ffffff';
+c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 108, 225, 50);
-c12.beginPath();
+c12.beginPath(); // Lage smexy sirkel
 c12.arc(60, 53, 29, 0, 2 * Math.PI);
 c12.fill()
 c12.fillStyle = '#ffffff';
 c12.stroke()
-c12.closePath();
+let img5 = new Image(); // Kommunist stjerne greie
+img5.src = "https://www.pngall.com/wp-content/uploads/12/Red-Star-PNG-HD-Image.png"; // setter kilde på bildet
+img5.onload = () => {
+    // Tegner inn bildet med canvas 
+    c12.drawImage(img5, 17, 16, 85, 80);
+}
