@@ -227,27 +227,29 @@ let c15 = URcanvas.getContext('2d');
 c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 0, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 12.5, 225, 150);
+c15.fillRect(0, 11.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 25, 225, 150);
+c15.fillRect(0, 23, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt 
-c15.fillRect(0, 37.5, 225, 150);
+c15.fillRect(0, 34.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 50, 225, 150);
+c15.fillRect(0, 46, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 62.5, 225, 150);
+c15.fillRect(0, 57.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød 
-c15.fillRect(0, 75, 225, 150);
+c15.fillRect(0, 69, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 87.5, 225, 150);
+c15.fillRect(0, 80.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 100, 225, 150);
+c15.fillRect(0, 92, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt 
-c15.fillRect(0, 112.5, 225, 150);
+c15.fillRect(0, 103.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 125, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 137.5, 225, 150);
+c15.fillRect(0, 115, 225, 150);
+c15.fillStyle = '#FFFFFF'; // Hvitt stripe
+c15.fillRect(0, 126.5, 225, 150);
+c15.fillStyle = '#B31942'; // rød stripe
+c15.fillRect(0, 138, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 137.5, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
@@ -262,3 +264,10 @@ c16.fillStyle = '#00966E';
 c16.fillRect(0, 50, 225, 50);
 c16.fillStyle = '#D62612';
 c16.fillRect(0, 100, 225, 50);
+c15.fillRect(0, 0, 100, 80.5);
+let img69 = new Image(); // Ga opp på å lage 50 ind stjerner :derp:
+img69.src = "https://freepikpsd.com/file/2019/10/us-flag-stars-png-3-Transparent-Images.png"; // setter kilde på bildet
+img69.onload = () => {
+    // Tegner inn bildet med canvas 
+    c15.drawImage(img69, 0, 0, 100, 80.5);
+}
