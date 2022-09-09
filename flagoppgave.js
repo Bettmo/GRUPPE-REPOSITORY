@@ -287,3 +287,21 @@ c17.fillStyle = '#FFFFFF'; // Hvit
 c17.fillRect(150, 0, 75, 150);
 
 
+let PAcanvas = document.querySelector('#PA');
+let c18 = PAcanvas.getContext('2d');
+
+c18.fillStyle = '#D52B1E'; // rød
+c18.fillRect(0, 0, 225, 50);
+c18.fillStyle = '#FFFFFF'; // hvit
+c18.fillRect(0, 50, 225, 50);
+c18.fillStyle = '#0038A8'; // blå
+c18.fillRect(0, 100, 225, 50);
+
+let img70 = new Image(); // oppretter en variabel på bildet
+img70.src = "./Paraguay.png"; // setter kilde på bildet
+img70.onload = () => {
+    // Tegner inn bildet med canvas
+    c18.drawImage(img70, 80,50, 50, 50);
+}
+
+
