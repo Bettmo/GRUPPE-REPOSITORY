@@ -255,6 +255,16 @@ c15.fillRect(0, 137.5, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 137.5, 225, 150);
 
+
+
+
+let img69 = new Image(); // Ga opp på å lage 50 ind stjerner :derp:
+img69.src = "https://freepikpsd.com/file/2019/10/us-flag-stars-png-3-Transparent-Images.png"; // setter kilde på bildet
+img69.onload = () => {
+    // Tegner inn bildet med canvas 
+    c15.drawImage(img69, 0, 0, 100, 80.5);
+}
+
 let BUcanvas = document.querySelector('#BU');
 let c16 = BUcanvas.getContext('2d');
 
@@ -264,10 +274,17 @@ c16.fillStyle = '#00966E';
 c16.fillRect(0, 50, 225, 50);
 c16.fillStyle = '#D62612';
 c16.fillRect(0, 100, 225, 50);
-c15.fillRect(0, 0, 100, 80.5);
-let img69 = new Image(); // Ga opp på å lage 50 ind stjerner :derp:
-img69.src = "https://freepikpsd.com/file/2019/10/us-flag-stars-png-3-Transparent-Images.png"; // setter kilde på bildet
-img69.onload = () => {
-    // Tegner inn bildet med canvas 
-    c15.drawImage(img69, 0, 0, 100, 80.5);
-}
+
+
+
+let IRcanvas = document.querySelector('#Irland');
+let c17 = IRcanvas.getContext('2d');
+
+c13.fillStyle = '#169B62'; // Blå
+c13.fillRect(0, 0, 75, 150);
+c13.fillStyle = '#FFFFFF'; // Rød
+c13.fillRect(150, 0, 75, 150);
+c13.fillStyle = '#FF883E'; // Hvit
+c13.fillRect(75, 0, 75, 150);
+
+
