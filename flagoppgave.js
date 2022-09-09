@@ -194,3 +194,13 @@ img5.onload = () => {
     // Tegner inn bildet med canvas 
     c12.drawImage(img5, 19, 15, 80, 80);
 }
+
+let FRcanvas = document.querySelector('#Frankrike');
+let c13 = FRcanvas.getContext('2d');
+
+c13.fillStyle = '#024fa2'; // Blå
+c13.fillRect(0, 0, 75, 150);
+c13.fillStyle = '#ed1c27'; // Rød
+c13.fillRect(150, 0, 75, 150);
+c13.fillStyle = '#ffffff'; // Hvit
+c13.fillRect(75, 0, 75, 150);
