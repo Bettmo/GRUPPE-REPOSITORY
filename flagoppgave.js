@@ -227,28 +227,28 @@ let c15 = URcanvas.getContext('2d');
 c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 0, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 12.5, 225, 150);
+c15.fillRect(0, 11.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 25, 225, 150);
+c15.fillRect(0, 23, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt 
-c15.fillRect(0, 37.5, 225, 150);
+c15.fillRect(0, 34.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 50, 225, 150);
+c15.fillRect(0, 46, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 62.5, 225, 150);
+c15.fillRect(0, 57.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød 
-c15.fillRect(0, 75, 225, 150);
+c15.fillRect(0, 69, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 87.5, 225, 150);
+c15.fillRect(0, 80.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 100, 225, 150);
+c15.fillRect(0, 92, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt 
-c15.fillRect(0, 112.5, 225, 150);
+c15.fillRect(0, 103.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
-c15.fillRect(0, 125, 225, 150);
+c15.fillRect(0, 115, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
-c15.fillRect(0, 137.5, 225, 150);
+c15.fillRect(0, 126.5, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
-c15.fillRect(0, 137.5, 225, 150);
+c15.fillRect(0, 138, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 137.5, 225, 150);
