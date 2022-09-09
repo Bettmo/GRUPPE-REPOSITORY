@@ -248,3 +248,5 @@ c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 125, 225, 150);
 c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 137.5, 225, 150);
+c15.fillStyle = '#FFFFFF'; // Blå boks
+c15.fillRect(0, 137.5, 225, 150);
