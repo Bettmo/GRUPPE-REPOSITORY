@@ -252,3 +252,13 @@ c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 137.5, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 137.5, 225, 150);
+
+let BUcanvas = document.querySelector('#BU');
+let c16 = BUcanvas.getContext('2d');
+
+c16.fillStyle = '#FFFFFF';
+c16.fillRect(0, 0, 225, 50);
+c16.fillStyle = '#00966E';
+c16.fillRect(0, 50, 225, 50);
+c16.fillStyle = '#D62612';
+c16.fillRect(0, 100, 225, 50);
