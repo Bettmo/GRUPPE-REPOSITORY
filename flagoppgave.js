@@ -204,3 +204,13 @@ c13.fillStyle = '#ed1c27'; // Rød
 c13.fillRect(150, 0, 75, 150);
 c13.fillStyle = '#ffffff'; // Hvit
 c13.fillRect(75, 0, 75, 150);
+
+let BEcanvas = document.querySelector('#Benin');
+let c14 = BEcanvas.getContext('2d');
+
+c14.fillStyle = '#008850'; // Grønn 
+c14.fillRect(0, 0, 75, 150);
+c14.fillStyle = '#FCD20F'; // Gul
+c14.fillRect(75, 0, 150, 150);
+c14.fillStyle = '#E90929'; // Rød
+c14.fillRect(75, 75, 150, 150);
