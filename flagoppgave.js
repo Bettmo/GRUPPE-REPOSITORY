@@ -246,9 +246,9 @@ c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 103.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 115, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Hvitt
+c15.fillStyle = '#FFFFFF'; // Hvitt stripe
 c15.fillRect(0, 126.5, 225, 150);
-c15.fillStyle = '#0A3161'; // Blå boks
+c15.fillStyle = '#B31942'; // rød stripe
 c15.fillRect(0, 138, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
-c15.fillRect(0, 137.5, 225, 150);
+c15.fillRect(0, 0, 100, 80.5);
