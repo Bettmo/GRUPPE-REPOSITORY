@@ -221,7 +221,7 @@ c14.fillRect(75, 0, 150, 150);
 c14.fillStyle = '#E90929'; // Rød
 c14.fillRect(75, 75, 150, 150);
 
-let URcanvas = document.querySelector('#Uruguay');
+let URcanvas = document.querySelector('#USA');
 let c15 = URcanvas.getContext('2d');
 
 c15.fillStyle = '#008850'; // Grønn 
