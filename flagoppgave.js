@@ -157,10 +157,10 @@ c10.fillRect(0, 50, 225, 50);
 c10.fillStyle = '#509E2F';
 c10.fillRect(0, 100, 225, 50);
 let img5 = new Image(); // oppretter en variabel på bildet
-img5.src = "./tyrkia.png"; // setter kilde på bildet
+img5.src = "./moon.png"; // setter kilde på bildet
 img5.onload = () => {
     // Tegner inn bildet med canvas
-    c7.drawImage(img5, 35, 20, 143, 104);
+    c10.drawImage(img5, 35, 20, 143, 104);
 }
 
 let DEcanvas = document.querySelector('#Tyskland');
