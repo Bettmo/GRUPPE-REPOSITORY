@@ -230,3 +230,23 @@ c15.fillStyle = '#FCD20F'; // Gul
 c15.fillRect(75, 0, 150, 150);
 c15.fillStyle = '#E90929'; // Rød
 c15.fillRect(75, 75, 150, 150);
+c15.fillStyle = '#008850'; // Grønn 
+c15.fillRect(0, 0, 75, 150);
+c15.fillStyle = '#FCD20F'; // Gul
+c15.fillRect(75, 0, 150, 150);
+c15.fillStyle = '#E90929'; // Rød
+c15.fillRect(75, 75, 150, 150);
+c15.fillStyle = '#008850'; // Grønn 
+c15.fillRect(0, 0, 75, 150);
+c15.fillStyle = '#FCD20F'; // Gul
+c15.fillRect(75, 0, 150, 150);
+c15.fillStyle = '#E90929'; // Rød
+c15.fillRect(75, 75, 150, 150);
+c15.fillStyle = '#008850'; // Grønn 
+c15.fillRect(0, 0, 75, 150);
+c15.fillStyle = '#FCD20F'; // Gul
+c15.fillRect(75, 0, 150, 150);
+c15.fillStyle = '#E90929'; // Rød
+c15.fillRect(75, 75, 150, 150);
+c15.fillStyle = '#E90929'; // Rød
+c15.fillRect(75, 75, 150, 150);
