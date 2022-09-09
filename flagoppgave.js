@@ -224,27 +224,27 @@ c14.fillRect(75, 75, 150, 150);
 let URcanvas = document.querySelector('#USA');
 let c15 = URcanvas.getContext('2d');
 
-c15.fillStyle = '#B31942'; // Grønn 
+c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 0, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Gul
+c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 12.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 25, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Grønn 
+c15.fillStyle = '#FFFFFF'; // Hvitt 
 c15.fillRect(0, 37.5, 225, 150);
-c15.fillStyle = '#B31942'; // Gul
+c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 50, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Rød
+c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 62.5, 225, 150);
-c15.fillStyle = '#B31942'; // Grønn 
+c15.fillStyle = '#B31942'; // Rød 
 c15.fillRect(0, 75, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Gul
+c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 87.5, 225, 150);
 c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 100, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Grønn 
+c15.fillStyle = '#FFFFFF'; // Hvitt 
 c15.fillRect(0, 112.5, 225, 150);
-c15.fillStyle = '#B31942'; // Gul
+c15.fillStyle = '#B31942'; // Rød
 c15.fillRect(0, 125, 225, 150);
-c15.fillStyle = '#FFFFFF'; // Rød
+c15.fillStyle = '#FFFFFF'; // Hvitt
 c15.fillRect(0, 137.5, 225, 150);
