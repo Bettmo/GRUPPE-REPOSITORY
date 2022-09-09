@@ -250,11 +250,6 @@ c15.fillStyle = '#FFFFFF'; // Hvitt stripe
 c15.fillRect(0, 126.5, 225, 150);
 c15.fillStyle = '#B31942'; // rød stripe
 c15.fillRect(0, 138, 225, 150);
-c15.fillStyle = '#0A3161'; // Blå boks
-c15.fillRect(0, 137.5, 225, 150);
-c15.fillStyle = '#0A3161'; // Blå boks
-c15.fillRect(0, 137.5, 225, 150);
-
 let img69 = new Image(); // Ga opp på å lage 50 ind stjerner :derp:
 img69.src = "https://freepikpsd.com/file/2019/10/us-flag-stars-png-3-Transparent-Images.png"; // setter kilde på bildet
 img69.onload = () => {
