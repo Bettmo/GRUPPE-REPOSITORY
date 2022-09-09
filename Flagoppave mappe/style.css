@@ -57,3 +57,21 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+div {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+    border-bottom: 80px solid blue;
+ }
+ div:after {
+    content:"";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+    border-top: 80px solid blue;
+    margin: 30px 0 0 -50px;
+ }
