@@ -252,3 +252,18 @@ c15.fillStyle = '#B31942'; // rød stripe
 c15.fillRect(0, 138, 225, 150);
 c15.fillStyle = '#0A3161'; // Blå boks
 c15.fillRect(0, 0, 100, 80.5);
+c15.fillStyle = "#FCD20F"; // Stjerne nummer 1
+c15.beginPath();
+c15.moveTo(108, 0.0);
+c15.lineTo(141, 70);
+c15.lineTo(218, 78.3);
+c15.lineTo(162, 131);
+c15.lineTo(175, 205);
+c15.lineTo(108, 170);
+c15.lineTo(41.2, 205);
+c15.lineTo(55, 131);
+c15.lineTo(1, 78);
+c15.lineTo(75, 68);
+c15.lineTo(108, 0);
+c15.closePath();
+c15.fill();
