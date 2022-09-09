@@ -194,11 +194,11 @@ c12.beginPath(); // Lage smexy sirkel
 c12.arc(60, 53, 29, 0, 2 * Math.PI);
 c12.fill()
 c12.fillStyle = '#ffffff';
-let img5 = new Image(); // Kommunist stjerne greie
-img5.src = "https://www.pngall.com/wp-content/uploads/12/Red-Star-PNG-HD-Image.png"; // setter kilde på bildet
-img5.onload = () => {
+let img6 = new Image(); // Kommunist stjerne greie
+img6.src = "https://www.pngall.com/wp-content/uploads/12/Red-Star-PNG-HD-Image.png"; // setter kilde på bildet
+img6.onload = () => {
     // Tegner inn bildet med canvas 
-    c12.drawImage(img5, 19, 15, 80, 80);
+    c12.drawImage(img6, 19, 15, 80, 80);
 }
 
 let FRcanvas = document.querySelector('#Frankrike');
