@@ -162,3 +162,71 @@ img5.onload = () => {
     // Tegner inn bildet med canvas
     c7.drawImage(img5, 35, 20, 143, 104);
 }
+
+let DEcanvas = document.querySelector('#Tyskland');
+let c11 = DEcanvas.getContext('2d');
+
+c11.fillStyle = '#000000';
+c11.fillRect(0, 0, 225, 50);
+c11.fillStyle = '#DD0000';
+c11.fillRect(0, 50, 225, 50);
+c11.fillStyle = '#FFCC00';
+c11.fillRect(0, 100, 225, 50);
+
+let NKcanvas = document.querySelector('#NKorea');
+let c12 = NKcanvas.getContext('2d');
+
+c12.fillStyle = '#024fa2'; // Blå
+c12.fillRect(0, 0, 225, 50);
+c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillRect(0, 18, 225, 50);
+c12.fillStyle = '#ed1c27'; // Rød
+c12.fillRect(0, 21, 225, 50);
+c12.fillStyle = '#ed1c27'; // Rød
+c12.fillRect(0, 51, 225, 50);
+c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillRect(0, 84, 225, 50);
+c12.fillStyle = '#024fa2'; // Blå
+c12.fillRect(0, 87, 225, 50);
+c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillRect(0, 108, 225, 50);
+c12.beginPath(); // Lage smexy sirkel
+c12.arc(60, 53, 29, 0, 2 * Math.PI);
+c12.fill()
+c12.fillStyle = '#ffffff';
+let img5 = new Image(); // Kommunist stjerne greie
+img5.src = "https://www.pngall.com/wp-content/uploads/12/Red-Star-PNG-HD-Image.png"; // setter kilde på bildet
+img5.onload = () => {
+    // Tegner inn bildet med canvas 
+    c12.drawImage(img5, 19, 15, 80, 80);
+}
+
+let FRcanvas = document.querySelector('#Frankrike');
+let c13 = FRcanvas.getContext('2d');
+
+c13.fillStyle = '#024fa2'; // Blå
+c13.fillRect(0, 0, 75, 150);
+c13.fillStyle = '#ed1c27'; // Rød
+c13.fillRect(150, 0, 75, 150);
+c13.fillStyle = '#ffffff'; // Hvit
+c13.fillRect(75, 0, 75, 150);
+
+let BEcanvas = document.querySelector('#Benin');
+let c14 = BEcanvas.getContext('2d');
+
+c14.fillStyle = '#008850'; // Grønn 
+c14.fillRect(0, 0, 75, 150);
+c14.fillStyle = '#FCD20F'; // Gul
+c14.fillRect(75, 0, 150, 150);
+c14.fillStyle = '#E90929'; // Rød
+c14.fillRect(75, 75, 150, 150);
+
+let URcanvas = document.querySelector('#Uruguay');
+let c15 = URcanvas.getContext('2d');
+
+c15.fillStyle = '#008850'; // Grønn 
+c15.fillRect(0, 0, 75, 150);
+c15.fillStyle = '#FCD20F'; // Gul
+c15.fillRect(75, 0, 150, 150);
+c15.fillStyle = '#E90929'; // Rød
+c15.fillRect(75, 75, 150, 150);
