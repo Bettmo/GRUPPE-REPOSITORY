@@ -160,7 +160,7 @@ let img5 = new Image(); // oppretter en variabel på bildet
 img5.src = "./moon.png"; // setter kilde på bildet
 img5.onload = () => {
     // Tegner inn bildet med canvas
-    c10.drawImage(img5, 35, 20, 143, 104);
+    c10.drawImage(img5, 90, 60, 48, 34);
 }
 
 let DEcanvas = document.querySelector('#Tyskland');
