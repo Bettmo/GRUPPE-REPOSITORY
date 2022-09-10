@@ -320,7 +320,34 @@ c20.fillRect(75, 0, 75, 150);
 c20.fillStyle = '#CE2B37'; // Rød
 c20.fillRect(150, 0, 75, 150);
 
+let ABcanvas = document.querySelector('#AB');
+let c21 = ABcanvas.getContext('2d');
 
+c21.fillStyle = '#000000'; // Sort Stripe
+c21.fillRect(0, 0, 225, 150);
+c21.fillStyle = '#0072C6'; // Blå stripe
+c21.fillRect(0, 57.9, 225, 150);
+c21.fillStyle = '#FFFFFF'; // Hvit stripe
+c21.fillRect(0, 91.8, 225, 150);
+c21.fillStyle = '#CE1126'; //Rød triangel
+c21.beginPath();
+c21.moveTo(0, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(0, 150);
+c21.fill();
+c21.closePath();
+c21.fillStyle = '#CE1126'; //Rød triangel andre side
+c21.beginPath();
+c21.moveTo(225, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(225, 150);
+c21.fill();
+c21.closePath();
+c21.fillStyle = '#FCD116'; //Gull
+c21.beginPath(); // Start på soloppgange (Halv Sirkel)
+c21.arc(112.5,57.9,25,0, 1* Math.PI,90);
+c21.fill();
+c21.closePath()
 
 var SYcanvas = document.getElementById("seychelles");
 var c21 = SYcanvas.getContext("2d");
