@@ -349,8 +349,10 @@ c21.arc(112.5,57.9,25,0, 1* Math.PI,90);
 c21.fill();
 c21.closePath()
 
-var SYcanvas = document.getElementById("seychelles");
-var c22 = SYcanvas.getContext("2d");
+
+
+let SYcanvas = document.getElementById("seychelles");
+let c22 = SYcanvas.getContext("2d");
 
 
 c22.beginPath();
@@ -393,3 +395,4 @@ c22.lineTo(225,100);
 c22.closePath();
 c22.fillStyle="#007a3d"; //grønn
 c22.fill();
+
