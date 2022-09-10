@@ -324,10 +324,10 @@ let ABcanvas = document.querySelector('#AB');
 let c21 = ABcanvas.getContext('2d');
 
 c21.fillStyle = '#000000'; // Sort Stripe
-c21.fillRect(0, 0, 75, 150);
+c21.fillRect(0, 0, 225, 150);
 c21.fillStyle = '#0072C6'; // Blå stripe
-c21.fillRect(75, 0, 75, 150);
+c21.fillRect(0, 57.9, 225, 150);
 c21.fillStyle = '#FFFFFF'; // Hvit stripe
-c21.fillRect(150, 0, 75, 150);
+c21.fillRect(0, 91.8, 225, 150);
 
 
