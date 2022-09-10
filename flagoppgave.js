@@ -335,11 +335,16 @@ c21.moveTo(0, 0);
 c21.lineTo(112.5, 150);
 c21.lineTo(0, 150);
 c21.fill();
-c21.closePath()
+c21.closePath();
 c21.fillStyle = '#CE1126'; //Rød triangel andre side
 c21.beginPath();
 c21.moveTo(225, 0);
 c21.lineTo(112.5, 150);
 c21.lineTo(225, 150);
+c21.fill();
+c21.closePath();
+c21.fillStyle = '#FCD116'; //Gull
+c21.beginPath(); // Start på soloppgange (Halv Sirkel)
+c21.arc(112.5,57.9,50,50.25, 1* Math.PI);
 c21.fill();
 c21.closePath()
