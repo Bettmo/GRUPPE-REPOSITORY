@@ -345,6 +345,6 @@ c21.fill();
 c21.closePath();
 c21.fillStyle = '#FCD116'; //Gull
 c21.beginPath(); // Start på soloppgange (Halv Sirkel)
-c21.arc(112.5,57.9,25,0, 1* Math.PI);
+c21.arc(112.5,57.9,25,0, 1* Math.PI,90);
 c21.fill();
 c21.closePath()
