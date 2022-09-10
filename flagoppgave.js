@@ -276,9 +276,9 @@ let c17 = IRcanvas.getContext('2d');
 
 c17.fillStyle = '#169B62'; // grønn
 c17.fillRect(0, 0, 75, 150);
-c17.fillStyle = '#FF883E'; // oranjse
-c17.fillRect(75, 0, 75, 150);
 c17.fillStyle = '#FFFFFF'; // Hvit
+c17.fillRect(75, 0, 75, 150);
+c17.fillStyle = '#FF883E'; // oranjse
 c17.fillRect(150, 0, 75, 150);
 
 
