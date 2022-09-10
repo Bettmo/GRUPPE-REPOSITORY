@@ -329,5 +329,17 @@ c21.fillStyle = '#0072C6'; // Blå stripe
 c21.fillRect(0, 57.9, 225, 150);
 c21.fillStyle = '#FFFFFF'; // Hvit stripe
 c21.fillRect(0, 91.8, 225, 150);
-
-
+c21.fillStyle = '#CE1126'; //Rød triangel
+c21.beginPath();
+c21.moveTo(0, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(0, 150);
+c21.fill();
+c21.closePath()
+c21.fillStyle = '#CE1126'; //Rød triangel andre side
+c21.beginPath();
+c21.moveTo(225, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(225, 150);
+c21.fill();
+c21.closePath()
