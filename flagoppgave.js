@@ -350,46 +350,46 @@ c21.fill();
 c21.closePath()
 
 var SYcanvas = document.getElementById("seychelles");
-var c21 = SYcanvas.getContext("2d");
+var c22 = SYcanvas.getContext("2d");
 
 
-c21.beginPath();
-c21.moveTo(0,150);
-c21.lineTo(60,0);
-c21.lineTo(0,0);
-c21.closePath();
-c21.fillStyle="#003f87"; //blå
-c21.fill();
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(60,0);
+c22.lineTo(0,0);
+c22.closePath();
+c22.fillStyle="#003f87"; //blå
+c22.fill();
 
-c21.beginPath();
-c21.moveTo(0,150);
-c21.lineTo(175,0);
-c21.lineTo(60,0);
-c21.closePath();
-c21.fillStyle="#fcd856"; //gul
-c21.fill();
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(175,0);
+c22.lineTo(60,0);
+c22.closePath();
+c22.fillStyle="#fcd856"; //gul
+c22.fill();
 
-c21.beginPath();
-c21.moveTo(0,150);
-c21.lineTo(225,40);
-c21.lineTo(225,0);
-c21.lineTo(175,0);
-c21.closePath();
-c21.fillStyle="#d62828"; //rød
-c21.fill();
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,40);
+c22.lineTo(225,0);
+c22.lineTo(175,0);
+c22.closePath();
+c22.fillStyle="#d62828"; //rød
+c22.fill();
 
-c21.beginPath();
-c21.moveTo(0,150);
-c21.lineTo(225,100);
-c21.lineTo(225,40);
-c21.closePath();
-c21.fillStyle="#FFFFFF"; //hvit
-c21.fill();
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,100);
+c22.lineTo(225,40);
+c22.closePath();
+c22.fillStyle="#FFFFFF"; //hvit
+c22.fill();
 
-c21.beginPath();
-c21.moveTo(0,150);
-c21.lineTo(225,150);
-c21.lineTo(225,100);
-c21.closePath();
-c21.fillStyle="#007a3d"; //grønn
-c21.fill();
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,150);
+c22.lineTo(225,100);
+c22.closePath();
+c22.fillStyle="#007a3d"; //grønn
+c22.fill();
