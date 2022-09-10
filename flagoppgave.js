@@ -309,3 +309,14 @@ c19.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c19.closePath();
 c19.fillStyle = '#FFD100';
 c19.fill();
+
+let ITcanvas = document.querySelector('#IT');
+let c20 = ITcanvas.getContext('2d');
+
+c20.fillStyle = '#009246'; // Grønn
+c20.fillRect(0, 0, 75, 150);
+c20.fillStyle = '#F1F2F1'; // Hvit
+c20.fillRect(75, 0, 75, 150);
+c20.fillStyle = '#CE2B37'; // Rød
+c20.fillRect(150, 0, 75, 150);
+
