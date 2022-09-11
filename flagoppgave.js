@@ -188,8 +188,9 @@ c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 84, 225, 50);
 c12.fillStyle = '#024fa2'; // Blå
 c12.fillRect(0, 87, 225, 50);
-c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillStyle = 'lightgray'; // Hvitt
 c12.fillRect(0, 108, 225, 50);
+c12.fillStyle = '#ffffff';
 c12.beginPath(); // Lage smexy sirkel
 c12.arc(60, 53, 29, 0, 2 * Math.PI);
 c12.fill()
@@ -388,7 +389,7 @@ c22.moveTo(0,150);
 c22.lineTo(225,100);
 c22.lineTo(225,40);
 c22.closePath();
-c22.fillStyle="#FFFFFF"; //hvit
+c22.fillStyle ="#FFFFFF"; //hvit
 c22.fill();
 
 c22.beginPath();
@@ -445,3 +446,37 @@ img7.onload = () => {
     // Tegner inn bildet med canvas
     c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
 }
+
+let SOcanvas = document.querySelector('#SO');
+let c28 = SOcanvas.getContext('2d');
+
+c28.beginPath();
+c28.lineTo(0, 140);
+c28.lineTo(215, 0);
+c28.lineTo(0,0);
+c28.closePath();
+c28.fillStyle = 'Blue';
+c28.fill();
+
+c28.beginPath();
+c28.moveTo(225,150);
+c28.lineTo(225, 10);
+c28.lineTo(10, 150);
+c28.lineTo(225,150);
+c28.closePath();
+c28.fillStyle = "green";
+c28.fill();
+
+c28.beginPath();
+c28.moveTo(225,0);
+c28.lineTo(225, 10);
+c28.lineTo(10, 150);
+c28.lineTo(0, 150);
+c28.lineTo( 0, 140);
+c28.lineTo(215, 0);
+c28.lineTo(225, 0);
+c28.closePath();
+c28.fillStyle = 'yellow';
+c28.fill();
+
+

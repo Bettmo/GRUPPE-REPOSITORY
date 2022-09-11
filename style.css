@@ -1,9 +1,7 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(https://cdn.discordapp.com/attachments/1018493490935627776/1018607186018041886/IMG_0982.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: lightgray;
 }
 header{
     height: 100px;
@@ -40,6 +38,7 @@ header{
     width: 300px;
     height: 230px;
     border: solid 1px lightgray;
+    background-color: lightgray;
     transition: 0.3s;
 }
 .celle canvas{
@@ -53,7 +52,7 @@ header{
     box-shadow: 0 0 10px #979797;
 }
 .graaBak{
-    background-color: #e8e8e8;
+    background-color: lightgray;
 }
 footer{
     height: 80px;
