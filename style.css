@@ -1,6 +1,9 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cdn.discordapp.com/attachments/1018493490935627776/1018607186018041886/IMG_0982.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     height: 100px;
@@ -9,8 +12,8 @@ header{
     border-bottom: solid black 1px;
     background: #2c3e50;
     color: white;
-    padding: 50px;
-    margin-bottom: 80px;
+    padding: 20px;
+    margin-bottom: 0px;
     text-align: center;
 }
 .flaggene{
@@ -23,6 +26,14 @@ header{
 }
 .kontinent{
     text-align: center;
+    margin: auto;
+    height: 35px;
+    width: 100%;
+    border-bottom: solid black 1px;
+    background: rgb(139, 139, 139);
+    border-top: solid black 1px;
+    padding: 10px;
+    margin-bottom: 25px;
 }
 
 .celle{
