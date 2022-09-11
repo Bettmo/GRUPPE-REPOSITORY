@@ -487,3 +487,35 @@ let Camcanvas = document.querySelector('#Cam');
 let c29 = Camcanvas.getContext('2d')
 
 
+
+
+let SorAcanvas = document.querySelector('#SorA');
+let c30 = SorAcanvas.getContext('2d');
+
+c30.fillStyle = 'red';
+c30.fillRect(0,0,225,75);
+c30.fillStyle = 'blue';
+c30.fillRect(0, 75, 225, 75);
+c30.fillStyle = 'white';
+c30.fillRect(0, 35, 225, 80)
+c30.fillStyle = 'green';
+c30.fillRect(0, 45, 225, 60);
+
+c30.beginPath();
+c30.moveTo(0, 30);
+c30.lineTo(75, 75);
+c30.lineTo(0, 120);
+c30.lineTo(0, 30);
+c30.closePath();
+c30.fillStyle = 'yellow';
+c30.fill();
+
+c30.beginPath();
+c30.moveTo(0, 40);
+c30.lineTo(60, 75);
+c30.lineTo(0, 110);
+c30.lineTo(0, 40);
+c30.closePath();
+c30.fillStyle = 'black';
+c30.fill();
+
