@@ -20,7 +20,7 @@ let IScanvas = document.querySelector('#IS');
 let c2 = IScanvas.getContext('2d');
 
 c2.fillStyle = '#FFFFFf'; // rød
-c2.fillRect(0,0,220,150);
+c2.fillRect(0,0,217,150);
 c2.fillStyle = '#024f9c'; // blå
 c2.fillRect(0,0,60,60);
 c2.fillStyle = '#dc1e35'; // rød v
