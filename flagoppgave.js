@@ -449,10 +449,8 @@ img7.src = "https://cdn.discordapp.com/attachments/1018493490935627776/101856701
 img7.onload = () => {
     // Tegner inn bildet med canvas
     c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
-<<<<<<< HEAD
 }
-=======
-}
+
 
 let NAUcanvas = document.querySelector('#NAU');
 let c27 = NAUcanvas.getContext('2d');
@@ -612,4 +610,3 @@ c31.fillStyle = '#8B0000'; //Rød
 c31.fillRect(75,0,75,150);
 c31.fillStyle = '#1b1b1b'; //sort
 c31.fillRect(150,0,75,150);
->>>>>>> 834bb60ea8774aa3de0e1285b667d546c49365a1
