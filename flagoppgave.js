@@ -70,30 +70,30 @@ img.onload = () => {
 let gronnland = document.querySelector('#gronnland');
 let c5 = gronnland.getContext('2d');
 
-c5.fillStyle = 'red'; // rød firkant
+c5.fillStyle = '#D00C33'; // rød firkant
 c5.fillRect(0,75,225,150);
-c5.fillStyle = 'white'; // hvit firkant
+c5.fillStyle = 'FFFFFF'; // hvit firkant
 c5.fillRect(0,0,225,75);
 c5.beginPath(); // hvit halvsirkel
 c5.arc(90,75,50,50.25, 1* Math.PI);
 c5.fill();
-c5.fillstyle = 'white';
+c5.fillstyle = 'FFFFFF';
 c5.closePath();
 c5.beginPath(); // rød halvsirkel
 c5.arc(90,75,50, 40.84, 2 * Math.PI);
 c5.closePath();
-c5.fillStyle = 'red';
+c5.fillStyle = 'D00C33';
 c5.fill();
 
 let japan = document.querySelector('#japan');
 let c6 = japan.getContext('2d');
 
-c6.fillStyle = 'white'; // hvit
+c6.fillStyle = 'FFFFFF'; // hvit
 c6.fillRect(1,1,225,150);
 c6.beginPath(); // rød sirkel
 c6.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c6.closePath();
-c6.fillStyle = 'red';
+c6.fillStyle = 'BC002D';
 c6.fill();
 
 let TYcanvas = document.querySelector('#TY');
