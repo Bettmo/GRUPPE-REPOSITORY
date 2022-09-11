@@ -419,3 +419,13 @@ c24.fillStyle = '#003893'; //blå
 c24.fillRect(0, 75, 225, 37.5);
 c24.fillStyle = '#CE1126'; //rød
 c24.fillRect(0, 112.5, 225, 37.5);
+
+let CHADcanvas = document.querySelector('#CHAD');
+let c25 = CHADcanvas.getContext('2d');
+
+c24.fillStyle = '#002664'; //blå
+c24.fillRect(0, 0, 75, 150)
+c24.fillStyle = '#FECB00'; //gul
+c24.fillRect(75, 0, 75, 150);
+c24.fillStyle = '#C60C30'; //rød
+c24.fillRect(150, 0, 75, 150);
