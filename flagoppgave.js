@@ -451,6 +451,7 @@ img7.onload = () => {
     c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
 }
 
+
 let NAUcanvas = document.querySelector('#NAU');
 let c27 = NAUcanvas.getContext('2d');
 
