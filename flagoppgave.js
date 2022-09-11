@@ -454,12 +454,12 @@ img7.onload = () => {
 let NAUcanvas = document.querySelector('#NAU');
 let c27 = NAUcanvas.getContext('2d');
 
-c27.fillStyle = '#012169' //blå
-c27.fillRect(0,0,225,51.5625)
-c27.fillStyle = '#FFC72C' //gul
-c27.fillRect(0,51.5625,225,9.375)
-c27.fillStyle = '#012169' //blå
-c27.fillRect(0,60.9375,225,60.9375)
+c27.fillStyle = '#012169'; //blå
+c27.fillRect(0,0,225,51.5625);
+c27.fillStyle = '#FFC72C'; //gul
+c27.fillRect(0,51.5625,225,9.375);
+c27.fillStyle = '#012169'; //blå
+c27.fillRect(0,60.9375,225,60.9375);
 let img9 = new Image(); // oppretter en variabel på bildet
 img9.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018609591233286175/12_pointed_star_png.png"; // setter kilde på bildet
 img9.onload = () => {
@@ -475,7 +475,7 @@ c28.lineTo(0, 140);
 c28.lineTo(215, 0);
 c28.lineTo(0,0);
 c28.closePath();
-c28.fillStyle = 'Blue';
+c28.fillStyle = '#0051BA'; //blå
 c28.fill();
 
 c28.beginPath();
@@ -484,7 +484,7 @@ c28.lineTo(225, 10);
 c28.lineTo(10, 150);
 c28.lineTo(225,150);
 c28.closePath();
-c28.fillStyle = "green";
+c28.fillStyle = "#215B33"; //grønn
 c28.fill();
 
 c28.beginPath();
@@ -496,7 +496,7 @@ c28.lineTo( 0, 140);
 c28.lineTo(215, 0);
 c28.lineTo(225, 0);
 c28.closePath();
-c28.fillStyle = 'yellow';
+c28.fillStyle = '#FCD116'; //gul
 c28.fill();
 let img8 = new Image(); // oppretter en variabel på bildet
 img8.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018567017235742830/Five_Pointed_Star_Solid_white.png"; // setter kilde på bildet
@@ -519,13 +519,13 @@ let c29 = Camcanvas.getContext('2d');
 let SorAcanvas = document.querySelector('#SorA');
 let c30 = SorAcanvas.getContext('2d');
 
-c30.fillStyle = 'red';
+c30.fillStyle = '#E03C31'; //rød
 c30.fillRect(0,0,225,75);
-c30.fillStyle = 'blue';
+c30.fillStyle = '#001489'; //blå
 c30.fillRect(0, 75, 225, 75);
-c30.fillStyle = 'white';
+c30.fillStyle = '#FFFFFF'; //hvit
 c30.fillRect(0, 35, 225, 80)
-c30.fillStyle = 'green';
+c30.fillStyle = '#007749'; //grønn
 c30.fillRect(0, 45, 225, 60);
 
 c30.beginPath();
@@ -534,7 +534,7 @@ c30.lineTo(75, 75);
 c30.lineTo(0, 120);
 c30.lineTo(0, 30);
 c30.closePath();
-c30.fillStyle = 'yellow';
+c30.fillStyle = '#FFB81C'; //gul
 c30.fill();
 
 c30.beginPath();
