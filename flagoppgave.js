@@ -494,8 +494,8 @@ img8.onload = () => {
 }
 
 
-let Camcanvas = document.querySelector('#Cam');
-let c29 = Camcanvas.getContext('2d')
+let Camcanvas = document.querySelector('#CAM');
+let c29 = Camcanvas.getContext('2d');
 
 
 
