@@ -1,14 +1,17 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
 }
 header{
-    height: 120px;
-    width: 80%;
+    height: 100px;
+    width: 100%;
     margin: auto;
     border-bottom: solid black 1px;
-    padding: 10px;
-    margin-bottom: 80px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
     text-align: center;
 
 }
@@ -22,12 +25,21 @@ header{
 }
 .kontinent{
     text-align: center;
+    margin: auto;
+    height: 35px;
+    width: 100%;
+    border-bottom: solid black 1px;
+    background: rgb(139, 139, 139);
+    border-top: solid black 1px;
+    padding: 10px;
+    margin-bottom: 25px;
 }
 
 .celle{
     width: 300px;
     height: 230px;
     border: solid 1px lightgray;
+    background-color: lightgray;
     transition: 0.3s;
 }
 .celle canvas{
@@ -41,7 +53,7 @@ header{
     box-shadow: 0 0 10px #979797;
 }
 .graaBak{
-    background-color: #e8e8e8;
+    background-color: lightgray;
 }
 footer{
     height: 80px;

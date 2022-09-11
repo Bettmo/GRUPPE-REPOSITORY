@@ -1,6 +1,8 @@
 let NOcanvas = document.querySelector('#Norge');
 let c1 = NOcanvas.getContext('2d');
 
+c1.fillStyle = '#FFFFFf'; // hvit
+c1.fillRect(0,0,220,150);
 c1.fillStyle = '#EF2B2D'; // rød
 c1.fillRect(0,0,60,60);
 c1.fillStyle = '#002868'; // blå v
@@ -17,6 +19,8 @@ c1.fillRect(100,100,120,60);
 let IScanvas = document.querySelector('#IS');
 let c2 = IScanvas.getContext('2d');
 
+c2.fillStyle = '#FFFFFf'; // hvit
+c2.fillRect(0,0,217,150);
 c2.fillStyle = '#024f9c'; // blå
 c2.fillRect(0,0,60,60);
 c2.fillStyle = '#dc1e35'; // rød v
@@ -140,7 +144,7 @@ c9.lineTo(95, 75);
 c9.lineTo(0, 150);
 c9.fill();
 let img4 = new Image(); // oppretter en variabel på bildet
-img4.src = "./star2.png"; // setter kilde på bildet
+img4.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018567017235742830/Five_Pointed_Star_Solid_white.png"; // setter kilde på bildet
 img4.onload = () => {
     // Tegner inn bildet med canvas
     c9.drawImage(img4, 6,47, 50, 50);
@@ -188,8 +192,9 @@ c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 84, 225, 50);
 c12.fillStyle = '#024fa2'; // Blå
 c12.fillRect(0, 87, 225, 50);
-c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillStyle = 'lightgray'; // Hvitt
 c12.fillRect(0, 108, 225, 50);
+c12.fillStyle = '#ffffff';
 c12.beginPath(); // Lage smexy sirkel
 c12.arc(60, 53, 29, 0, 2 * Math.PI);
 c12.fill()
@@ -305,7 +310,7 @@ let c19 = PALcanvas.getContext('2d');
 c19.fillStyle = '#0085CA'; // blå
 c19.fillRect(1,1,225,150);
 c19.beginPath(); // gul sirkel
-c19.arc(100, 75, 40, 0, 2 * Math.PI);
+c19.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c19.closePath();
 c19.fillStyle = '#FFD100';
 c19.fill();
@@ -388,7 +393,7 @@ c22.moveTo(0,150);
 c22.lineTo(225,100);
 c22.lineTo(225,40);
 c22.closePath();
-c22.fillStyle="#FFFFFF"; //hvit
+c22.fillStyle ="#FFFFFF"; //hvit
 c22.fill();
 
 c22.beginPath();
@@ -403,9 +408,9 @@ let Bangcanvas = document.querySelector('#Bang');
 let c23 = Bangcanvas.getContext('2d');
 
 c23.fillStyle = '#006a4e'; // grønn
-c23.fillRect(0,0,250,150);
+c23.fillRect(0,0,225,135);
 c23.beginPath(); // rød sirkel
-c23.arc(112.5, 75, 50, 0, 2 * Math.PI);
+c23.arc(101.25, 67.5, 45, 0, 2 * Math.PI);
 c23.closePath();
 c23.fillStyle = '#f42a41';
 c23.fill();
@@ -444,4 +449,167 @@ img7.src = "https://cdn.discordapp.com/attachments/1018493490935627776/101856701
 img7.onload = () => {
     // Tegner inn bildet med canvas
     c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
+<<<<<<< HEAD
 }
+=======
+}
+
+let NAUcanvas = document.querySelector('#NAU');
+let c27 = NAUcanvas.getContext('2d');
+
+c27.fillStyle = '#012169' //blå
+c27.fillRect(0,0,225,51.5625)
+c27.fillStyle = '#FFC72C' //gul
+c27.fillRect(0,51.5625,225,9.375)
+c27.fillStyle = '#012169' //blå
+c27.fillRect(0,60.9375,225,60.9375)
+let img9 = new Image(); // oppretter en variabel på bildet
+img9.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018609591233286175/12_pointed_star_png.png"; // setter kilde på bildet
+img9.onload = () => {
+    // Tegner inn bildet med canvas
+    c27.drawImage(img9, 28, 39, 80, 80);
+}
+
+let SOcanvas = document.querySelector('#SO');
+let c28 = SOcanvas.getContext('2d');
+
+c28.beginPath();
+c28.lineTo(0, 140);
+c28.lineTo(215, 0);
+c28.lineTo(0,0);
+c28.closePath();
+c28.fillStyle = 'Blue';
+c28.fill();
+
+c28.beginPath();
+c28.moveTo(225,150);
+c28.lineTo(225, 10);
+c28.lineTo(10, 150);
+c28.lineTo(225,150);
+c28.closePath();
+c28.fillStyle = "green";
+c28.fill();
+
+c28.beginPath();
+c28.moveTo(225,0);
+c28.lineTo(225, 10);
+c28.lineTo(10, 150);
+c28.lineTo(0, 150);
+c28.lineTo( 0, 140);
+c28.lineTo(215, 0);
+c28.lineTo(225, 0);
+c28.closePath();
+c28.fillStyle = 'yellow';
+c28.fill();
+let img8 = new Image(); // oppretter en variabel på bildet
+img8.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018567017235742830/Five_Pointed_Star_Solid_white.png"; // setter kilde på bildet
+img8.onload = () => {
+    // Tegner inn bildet med canvas
+    c28.drawImage(img8, 10, 10, 20, 20);
+    c28.drawImage(img8, 25, 25 , 20, 20);
+    c28.drawImage(img8, 40, 10 , 20, 20);
+    c28.drawImage(img8, 10, 40 , 20, 20);
+    c28.drawImage(img8, 40, 40 , 20, 20);
+}
+
+
+let Camcanvas = document.querySelector('#CAM');
+let c29 = Camcanvas.getContext('2d');
+
+
+
+
+let SorAcanvas = document.querySelector('#SorA');
+let c30 = SorAcanvas.getContext('2d');
+
+c30.fillStyle = 'red';
+c30.fillRect(0,0,225,75);
+c30.fillStyle = 'blue';
+c30.fillRect(0, 75, 225, 75);
+c30.fillStyle = 'white';
+c30.fillRect(0, 35, 225, 80)
+c30.fillStyle = 'green';
+c30.fillRect(0, 45, 225, 60);
+
+c30.beginPath();
+c30.moveTo(0, 30);
+c30.lineTo(75, 75);
+c30.lineTo(0, 120);
+c30.lineTo(0, 30);
+c30.closePath();
+c30.fillStyle = 'yellow';
+c30.fill();
+
+c30.beginPath();
+c30.moveTo(0, 40);
+c30.lineTo(60, 75);
+c30.lineTo(0, 110);
+c30.lineTo(0, 40);
+c30.closePath();
+c30.fillStyle = 'black';
+c30.fill();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let Mjaucanvas = document.querySelector('#Mjau');
+let c31 = Mjaucanvas.getContext('2d');
+
+c31.fillStyle = '#1b1b1b'; // sort
+c31.fillRect(0,0,75,150);
+c31.fillStyle = '#8B0000'; //Rød
+c31.fillRect(75,0,75,150);
+c31.fillStyle = '#1b1b1b'; //sort
+c31.fillRect(150,0,75,150);
+>>>>>>> 834bb60ea8774aa3de0e1285b667d546c49365a1
