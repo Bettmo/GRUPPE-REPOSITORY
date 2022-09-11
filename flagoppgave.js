@@ -416,16 +416,16 @@ let c24 = COLcanvas.getContext('2d');
 c24.fillStyle = '#FCD116'; //gul
 c24.fillRect(0,0,225,75);
 c24.fillStyle = '#003893'; //blå
-c24.fillRect(0, 75, 225, 37.5);
+c24.fillRect(0,75,225,37.5);
 c24.fillStyle = '#CE1126'; //rød
-c24.fillRect(0, 112.5, 225, 37.5);
+c24.fillRect(0,112.5,225,37.5);
 
 let CHADcanvas = document.querySelector('#CHAD');
 let c25 = CHADcanvas.getContext('2d');
 
 c25.fillStyle = '#002664'; //blå
-c25.fillRect(0, 0, 75, 150)
+c25.fillRect(0,0,75,150)
 c25.fillStyle = '#FECB00'; //gul
-c25.fillRect(75, 0, 75, 150);
+c25.fillRect(75,0,75,150);
 c25.fillStyle = '#C60C30'; //rød
-c25.fillRect(150, 0, 75, 150);
+c25.fillRect(150,0,75,150);
