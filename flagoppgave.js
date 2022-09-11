@@ -433,9 +433,9 @@ c25.fillRect(150,0,75,150);
 let CHIcanvas = document.querySelector('#CHI');
 let c26 = CHIcanvas.getContext('2d');
 
-c26.fillstyle = '#0039a6'; //blå
-c26.fillRect(0,0,75,75);
-c26.fillstyle = '#FFFFFF'; //hvit
-c26.fillRect(75,0,150,75);
-c26.fillstyle = '#d52b1e'; //rød
+c26.fillStyle = '#DA291C'; //rød
 c26.fillRect(0,75,225,75);
+c26.fillStyle = '#FFFFFF'; //hvit
+c26.fillRect(75,0,150,75);
+c26.fillStyle = '#0032A0'; //Blå
+c26.fillRect(0,0,75,75);
