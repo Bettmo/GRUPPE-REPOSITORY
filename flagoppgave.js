@@ -409,3 +409,13 @@ c23.arc(112.5, 75, 50, 0, 2 * Math.PI);
 c23.closePath();
 c23.fillStyle = '#f42a41';
 c23.fill();
+
+let COLcanvas = document.querySelector('#COL');
+let c24 = COLcanvas.getContext('2d');
+
+c24.fillStyle = '#FCD116'; //gul
+c24.fillRect(0,0,225,75);
+c24.fillStyle = '#003893'; //blå
+c24.fillRect(0, 75, 225, 37.5);
+c24.fillStyle = '#CE1126'; //rød
+c24.fillRect(0, 112.5, 225, 37.5);
