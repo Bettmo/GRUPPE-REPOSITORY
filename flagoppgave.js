@@ -306,7 +306,7 @@ let c19 = PALcanvas.getContext('2d');
 c19.fillStyle = '#0085CA'; // blå
 c19.fillRect(1,1,225,150);
 c19.beginPath(); // gul sirkel
-c19.arc(100, 75, 40, 0, 2 * Math.PI);
+c19.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c19.closePath();
 c19.fillStyle = '#FFD100';
 c19.fill();
