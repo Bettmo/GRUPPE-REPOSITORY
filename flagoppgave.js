@@ -60,7 +60,7 @@ c4.fillRect(0,112.5,225,37.5);
 c4.fillStyle = '#d21034'; // rød
 c4.fillRect(93.75,0,37.5,225);
 let img = new Image(); // oppretter en variabel på bildet
-img.src = "./star.png"; // setter kilde på bildet
+img.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018493821941710948/unknown.png"; // setter kilde på bildet
 img.onload = () => {
     // Tegner inn bildet med canvas
     c4.drawImage(img, 25, 0, 33.75, 33.75);
@@ -102,7 +102,7 @@ let c7 = TYcanvas.getContext('2d');
 c7.fillStyle = '#E30A17'; // rød
 c7.fillRect(0,0,225,150);
 let img2 = new Image(); // oppretter en variabel på bildet
-img2.src = "./tyrkia.png"; // setter kilde på bildet
+img2.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018493881035259914/unknown.png"; // setter kilde på bildet
 img2.onload = () => {
     // Tegner inn bildet med canvas
     c7.drawImage(img2, 35, 20, 143, 104);
@@ -157,7 +157,7 @@ c10.fillRect(0, 50, 225, 50);
 c10.fillStyle = '#509E2F';
 c10.fillRect(0, 100, 225, 50);
 let img5 = new Image(); // oppretter en variabel på bildet
-img5.src = "./moon.png"; // setter kilde på bildet
+img5.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018493745974476810/unknown.png"; // setter kilde på bildet
 img5.onload = () => {
     // Tegner inn bildet med canvas
     c10.drawImage(img5, 90, 60, 48, 34);
@@ -293,7 +293,7 @@ c18.fillStyle = '#0038A8'; // blå
 c18.fillRect(0, 100, 225, 50);
 
 let img70 = new Image(); // oppretter en variabel på bildet
-img70.src = "./Paraguay.png"; // setter kilde på bildet
+img70.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018493799204392990/unknown.png"; // setter kilde på bildet
 img70.onload = () => {
     // Tegner inn bildet med canvas
     c18.drawImage(img70, 80,50, 50, 50);
