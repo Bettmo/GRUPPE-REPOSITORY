@@ -439,3 +439,9 @@ c26.fillStyle = '#FFFFFF'; //hvit
 c26.fillRect(75,0,150,75);
 c26.fillStyle = '#0032A0'; //Blå
 c26.fillRect(0,0,75,75);
+let img7 = new Image(); // oppretter en variabel på bildet
+img7.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018567017235742830/Five_Pointed_Star_Solid_white.png"; // setter kilde på bildet
+img7.onload = () => {
+    // Tegner inn bildet med canvas
+    c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
+}
