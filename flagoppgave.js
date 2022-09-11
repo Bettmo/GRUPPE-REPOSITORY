@@ -482,6 +482,17 @@ c28.lineTo(225, 0);
 c28.closePath();
 c28.fillStyle = 'yellow';
 c28.fill();
+let img8 = new Image(); // oppretter en variabel på bildet
+img8.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018567017235742830/Five_Pointed_Star_Solid_white.png"; // setter kilde på bildet
+img8.onload = () => {
+    // Tegner inn bildet med canvas
+    c28.drawImage(img8, 10, 10, 25, 25);
+    c28.drawImage(img8, 30, 30 , 25, 25);
+    c28.drawImage(img8, 50, 10 , 25, 25);
+    c28.drawImage(img8, 10, 50 , 25, 25);
+    c28.drawImage(img8, 50, 50 , 25, 25);
+}
+
 
 let Camcanvas = document.querySelector('#Cam');
 let c29 = Camcanvas.getContext('2d')
