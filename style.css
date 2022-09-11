@@ -3,6 +3,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-image: url(https://cdn.discordapp.com/attachments/1018493490935627776/1018607186018041886/IMG_0982.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     height: 100px;
