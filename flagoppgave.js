@@ -530,3 +530,66 @@ c30.closePath();
 c30.fillStyle = 'black';
 c30.fill();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let Mjaucanvas = document.querySelector('#Mjau');
+let c31 = Mjaucanvas.getContext('2d');
+
+c31.fillStyle = '#1b1b1b'; // sort
+c31.fillRect(0,0,75,150);
+c31.fillStyle = '#8B0000'; //Rød
+c31.fillRect(75,0,75,150);
+c31.fillStyle = '#1b1b1b'; //sort
+c31.fillRect(150,0,75,150);
