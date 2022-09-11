@@ -451,6 +451,22 @@ img7.onload = () => {
     c26.drawImage(img7, 18.75, 18.75, 37.5, 37.5);
 }
 
+let NAUcanvas = document.querySelector('#NAU');
+let c27 = NAUcanvas.getContext('2d');
+
+c27.fillStyle = '#012169' //blå
+c27.fillRect(0,0,225,51.5625)
+c27.fillStyle = '#FFC72C' //gul
+c27.fillRect(0,51.5625,225,9.375)
+c27.fillStyle = '#012169' //blå
+c27.fillRect(0,60.9375,225,60.9375)
+let img9 = new Image(); // oppretter en variabel på bildet
+img9.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018609591233286175/12_pointed_star_png.png"; // setter kilde på bildet
+img9.onload = () => {
+    // Tegner inn bildet med canvas
+    c27.drawImage(img9, 28, 39, 80, 80);
+}
+
 let SOcanvas = document.querySelector('#SO');
 let c28 = SOcanvas.getContext('2d');
 
