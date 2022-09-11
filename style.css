@@ -3,11 +3,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 120px;
-    width: 80%;
+    height: 100px;
+    width: 100%;
     margin: auto;
     border-bottom: solid black 1px;
-    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    padding: 50px;
     margin-bottom: 80px;
     text-align: center;
 }
