@@ -396,3 +396,13 @@ c22.closePath();
 c22.fillStyle="#007a3d"; //grønn
 c22.fill();
 
+let Bangcanvas = document.querySelector('#Bang');
+let c23 = Bangcanvas.getContext('2d');
+
+c23.fillStyle = '#006a4e'; // grønn
+c23.fillRect(0,0,250,150);
+c23.beginPath(); // rød sirkel
+c23.arc(112.5, 75, 40, 0, 2 * Math.PI);
+c23.closePath();
+c23.fillStyle = '#f42a41';
+c23.fill();
