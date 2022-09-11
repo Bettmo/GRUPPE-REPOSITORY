@@ -188,8 +188,9 @@ c12.fillStyle = '#ffffff'; // Hvitt
 c12.fillRect(0, 84, 225, 50);
 c12.fillStyle = '#024fa2'; // Blå
 c12.fillRect(0, 87, 225, 50);
-c12.fillStyle = '#ffffff'; // Hvitt
+c12.fillStyle = 'lightgray'; // Hvitt
 c12.fillRect(0, 108, 225, 50);
+c12.fillStyle = '#ffffff';
 c12.beginPath(); // Lage smexy sirkel
 c12.arc(60, 53, 29, 0, 2 * Math.PI);
 c12.fill()
