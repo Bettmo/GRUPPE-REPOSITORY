@@ -11,7 +11,7 @@ header{
     margin-bottom: 80px;
     text-align: center;
 }
-#flaggene{
+.flaggene{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
@@ -19,6 +19,10 @@ header{
     margin: auto;
     margin-bottom: 160px;
 }
+.kontinent{
+    text-align: center;
+}
+
 .celle{
     width: 300px;
     height: 230px;

@@ -70,30 +70,30 @@ img.onload = () => {
 let gronnland = document.querySelector('#gronnland');
 let c5 = gronnland.getContext('2d');
 
-c5.fillStyle = 'red'; // rød firkant
+c5.fillStyle = '#D00C33'; // rød firkant
 c5.fillRect(0,75,225,150);
-c5.fillStyle = 'white'; // hvit firkant
+c5.fillStyle = '#FFFFFF'; // hvit firkant
 c5.fillRect(0,0,225,75);
 c5.beginPath(); // hvit halvsirkel
 c5.arc(90,75,50,50.25, 1* Math.PI);
 c5.fill();
-c5.fillstyle = 'white';
+c5.fillstyle = '#FFFFFF';
 c5.closePath();
 c5.beginPath(); // rød halvsirkel
 c5.arc(90,75,50, 40.84, 2 * Math.PI);
 c5.closePath();
-c5.fillStyle = 'red';
+c5.fillStyle = '#D00C33';
 c5.fill();
 
 let japan = document.querySelector('#japan');
 let c6 = japan.getContext('2d');
 
-c6.fillStyle = 'white'; // hvit
+c6.fillStyle = '#FFFFFF'; // hvit
 c6.fillRect(1,1,225,150);
 c6.beginPath(); // rød sirkel
 c6.arc(112.5, 75, 40, 0, 2 * Math.PI);
 c6.closePath();
-c6.fillStyle = 'red';
+c6.fillStyle = '#BC002D';
 c6.fill();
 
 let TYcanvas = document.querySelector('#TY');
@@ -276,9 +276,9 @@ let c17 = IRcanvas.getContext('2d');
 
 c17.fillStyle = '#169B62'; // grønn
 c17.fillRect(0, 0, 75, 150);
-c17.fillStyle = '#FF883E'; // oranjse
-c17.fillRect(75, 0, 75, 150);
 c17.fillStyle = '#FFFFFF'; // Hvit
+c17.fillRect(75, 0, 75, 150);
+c17.fillStyle = '#FF883E'; // oranjse
 c17.fillRect(150, 0, 75, 150);
 
 
@@ -313,3 +313,99 @@ c19.fill();
 
 
 
+let ITcanvas = document.querySelector('#IT');
+let c20 = ITcanvas.getContext('2d');
+
+c20.fillStyle = '#009246'; // Grønn
+c20.fillRect(0, 0, 75, 150);
+c20.fillStyle = '#F1F2F1'; // Hvit
+c20.fillRect(75, 0, 75, 150);
+c20.fillStyle = '#CE2B37'; // Rød
+c20.fillRect(150, 0, 75, 150);
+
+let ABcanvas = document.querySelector('#AB');
+let c21 = ABcanvas.getContext('2d');
+
+c21.fillStyle = '#000000'; // Sort Stripe
+c21.fillRect(0, 0, 225, 150);
+c21.fillStyle = '#0072C6'; // Blå stripe
+c21.fillRect(0, 57.9, 225, 150);
+c21.fillStyle = '#FFFFFF'; // Hvit stripe
+c21.fillRect(0, 91.8, 225, 150);
+c21.fillStyle = '#CE1126'; //Rød triangel
+c21.beginPath();
+c21.moveTo(0, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(0, 150);
+c21.fill();
+c21.closePath();
+c21.fillStyle = '#CE1126'; //Rød triangel andre side
+c21.beginPath();
+c21.moveTo(225, 0);
+c21.lineTo(112.5, 150);
+c21.lineTo(225, 150);
+c21.fill();
+c21.closePath();
+c21.fillStyle = '#FCD116'; //Gull
+c21.beginPath(); // Start på soloppgange (Halv Sirkel)
+c21.arc(112.5,57.9,25,0, 1* Math.PI,90);
+c21.fill();
+c21.closePath()
+
+
+
+let SYcanvas = document.getElementById("seychelles");
+let c22 = SYcanvas.getContext("2d");
+
+
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(60,0);
+c22.lineTo(0,0);
+c22.closePath();
+c22.fillStyle="#003f87"; //blå
+c22.fill();
+
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(175,0);
+c22.lineTo(60,0);
+c22.closePath();
+c22.fillStyle="#fcd856"; //gul
+c22.fill();
+
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,40);
+c22.lineTo(225,0);
+c22.lineTo(175,0);
+c22.closePath();
+c22.fillStyle="#d62828"; //rød
+c22.fill();
+
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,100);
+c22.lineTo(225,40);
+c22.closePath();
+c22.fillStyle="#FFFFFF"; //hvit
+c22.fill();
+
+c22.beginPath();
+c22.moveTo(0,150);
+c22.lineTo(225,150);
+c22.lineTo(225,100);
+c22.closePath();
+c22.fillStyle="#007a3d"; //grønn
+c22.fill();
+
+let Bangcanvas = document.querySelector('#Bang');
+let c23 = Bangcanvas.getContext('2d');
+
+c23.fillStyle = '#006a4e'; // grønn
+c23.fillRect(0,0,250,150);
+c23.beginPath(); // rød sirkel
+c23.arc(112.5, 75, 50, 0, 2 * Math.PI);
+c23.closePath();
+c23.fillStyle = '#f42a41';
+c23.fill();
