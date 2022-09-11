@@ -463,8 +463,20 @@ c28.moveTo(225,150);
 c28.lineTo(225, 10);
 c28.lineTo(10, 150);
 c28.lineTo(225,150);
+c28.closePath();
 c28.fillStyle = "green";
 c28.fill();
 
 c28.beginPath();
+c28.moveTo(225,0);
+c28.lineTo(225, 10);
+c28.lineTo(10, 150);
+c28.lineTo(0, 150);
+c28.lineTo( 0, 140);
+c28.lineTo(215, 0);
+c28.lineTo(225, 0);
+c28.closePath();
+c28.fillStyle = 'yellow';
+c28.fill();
+
 
