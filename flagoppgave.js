@@ -403,9 +403,9 @@ let Bangcanvas = document.querySelector('#Bang');
 let c23 = Bangcanvas.getContext('2d');
 
 c23.fillStyle = '#006a4e'; // grønn
-c23.fillRect(0,0,225,150);
+c23.fillRect(0,0,225,135);
 c23.beginPath(); // rød sirkel
-c23.arc(101.25, 75, 45, 0, 2 * Math.PI);
+c23.arc(101.25, 67.5, 45, 0, 2 * Math.PI);
 c23.closePath();
 c23.fillStyle = '#f42a41';
 c23.fill();
