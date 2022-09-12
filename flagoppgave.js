@@ -601,7 +601,7 @@ c30.fill();
 
 
 
-let Mjaucanvas = document.querySelector('#Mjau');
+let Mjaucanvas = document.querySelector('#Mjau'); // Armenia
 let c31 = Mjaucanvas.getContext('2d');
 
 c31.fillStyle = '#D90012'; // rødt
