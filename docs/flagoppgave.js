@@ -511,9 +511,22 @@ img8.onload = () => {
 }
 
 
-let Camcanvas = document.querySelector('#CAM');
-let c29 = Camcanvas.getContext('2d');
+let CAMcanvas = document.querySelector('#CAM');
+let c29 = CAMcanvas.getContext('2d');
 
+c29.fillStyle = "#007A5E";
+c29.fillRect(0,0,75,150);
+c29.fillStyle = "#CE1126";
+c29.fillRect(75,0,75,150);
+c29.fillStyle = "#FCD116";
+c29.fillRect(150,0,75,150);
+
+let img29 = new Image(); // oppretter en variabel på bildet
+img29.src = "https://cdn.discordapp.com/attachments/1018493490935627776/1018493821941710948/unknown.png"; // setter kilde på bildet
+img29.onload = () => {
+    // Tegner inn bildet med canvas
+    c29.drawImage(img29, 92.5, 55, 40, 40);
+}
 
 
 
