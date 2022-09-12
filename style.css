@@ -1,15 +1,13 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: lightgray;
+    background-color: #c7d1d7;
 }
 header{
     height: 100px;
-    width: 100%;
+    width: 90%;
     margin: auto;
-    border-bottom: solid black 1px;
-    background: #2c3e50;
-    color: white;
+    color: #3973ad;
     padding: 20px;
     margin-bottom: 0px;
     text-align: center;
@@ -28,9 +26,9 @@ header{
     margin: auto;
     height: 35px;
     width: 100%;
-    border-bottom: solid black 1px;
-    background: rgb(139, 139, 139);
-    border-top: solid black 1px;
+    background: #6d9bc9;
+    color: white;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
     padding: 10px;
     margin-bottom: 25px;
 }
@@ -38,8 +36,9 @@ header{
 .celle{
     width: 300px;
     height: 230px;
-    border: solid 1px lightgray;
-    background-color: lightgray;
+    border: solid 1px #c7d1d7;
+    background-color: #c7d1d7;
+    color: #3973ad;
     transition: 0.3s;
 }
 .celle canvas{
@@ -50,28 +49,33 @@ header{
     text-align: center;
 }
 .celle:hover{
-    box-shadow: 0 0 10px #979797;
+    box-shadow: 0 0 10px #6d9bc9;
+    background-color: #6d9bc9;
+    border:solid 1px #6d9bc9;
+    color: white;
 }
 .graaBak{
-    background-color: lightgray;
+    background-color: #c7d1d7;
 }
 footer{
     height: 80px;
     width: 100%;
     text-align: center;
-    background-color: #979797;
+    background-color: #6d9bc9;
+    color: white;
     position: fixed;
     bottom: 0;
     font-size: 0.7rem;
     left: 0;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 @media (min-width: 1580px){
-    #flaggene{
+    .flaggene{
         grid-template-columns: repeat(4, 1fr);
     }
 }
 @media (max-width: 1180px){
-    #flaggene{
+    .flaggene{
         grid-template-columns: repeat(2, 1fr);
     }
 }
