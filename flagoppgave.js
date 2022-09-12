@@ -604,9 +604,9 @@ c30.fill();
 let Mjaucanvas = document.querySelector('#Mjau');
 let c31 = Mjaucanvas.getContext('2d');
 
-c31.fillStyle = '#1b1b1b'; // sort
-c31.fillRect(0,0,75,150);
-c31.fillStyle = '#8B0000'; //Rød
-c31.fillRect(75,0,75,150);
-c31.fillStyle = '#1b1b1b'; //sort
-c31.fillRect(150,0,75,150);
+c31.fillStyle = '#D90012'; // rødt
+c31.fillRect(0,0,225,50);
+c31.fillStyle = '#0033A0'; //blå
+c31.fillRect(0,50,225,50);
+c31.fillStyle = '#F2A800'; //gult
+c31.fillRect(0,100,225,50);
