@@ -29,7 +29,7 @@ header{
     background: #6d9bc9;
     color: white;
     box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
-    padding: 10px;
+    padding: 10px 0;
     margin-bottom: 25px;
 }
 
