@@ -629,9 +629,18 @@ c31.fillRect(0,100,225,50);
 let INDOcanvas = document.querySelector('#INDO'); // Indonesia
 let c32 = INDOcanvas.getContext('2d');
 
-c32.fillStyle = "#FF0000";
+c32.fillStyle = "#FF0000"; //rød
 c32.fillRect(0,0,225,75)
-c32.fillStyle = "#FFFFFF"
+c32.fillStyle = "#FFFFFF" //hvit
 c32.fillRect(0,75,225,75)
 
+let YEMcanvas = document.querySelector('#YEM'); // Yemen
+let c33 = YEMcanvas.getContext('2d');
+
+c33.fillStyle = "#CE1126"; //rød
+c33.fillRect(0,0,225,50);
+c33.fillStyle = "#FFFFFF"; //hvit
+c33.fillRect(0,50,225,50);
+c33.fillStyle = "#000000"; //svart
+c33.fillRect(0,100,225,50)
 
