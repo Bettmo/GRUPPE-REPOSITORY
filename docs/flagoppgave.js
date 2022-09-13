@@ -623,3 +623,15 @@ c31.fillStyle = '#0033A0'; //blå
 c31.fillRect(0,50,225,50);
 c31.fillStyle = '#F2A800'; //gult
 c31.fillRect(0,100,225,50);
+
+
+
+let INDOcanvas = document.querySelector('#INDO'); // Indonesia
+let c32 = INDOcanvas.getContext('2d');
+
+c32.fillStyle = "#FF0000";
+c32.fillRect(0,0,225,75)
+c32.fillStyle = "#FFFFFF"
+c32.fillRect(0,75,225,75)
+
+
