@@ -647,7 +647,7 @@ c33.fillRect(0,100,225,50)
 let VIETcanvas = document.querySelector('#VIET'); // Vietnam
 let c34 = VIETcanvas.getContext('2d');
 
-c34.fillStyle = "#C8102E";
+c34.fillStyle = "#C8102E"; //Rød
 c34.fillRect(0,0,225,150);
 let img652 = new Image(); // oppretter en variabel på bildet
 img652.src = "https://media.discordapp.net/attachments/601105161527623680/1019127648699559977/unknown.png"; // setter kilde på bildet
