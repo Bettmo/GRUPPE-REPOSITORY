@@ -539,23 +539,45 @@ c30.fillStyle = '#001489'; //blå
 c30.fillRect(0, 75, 225, 75);
 c30.fillStyle = '#FFFFFF'; //hvit
 c30.fillRect(0, 35, 225, 80)
-c30.fillStyle = '#007749'; //grønn
-c30.fillRect(0, 45, 225, 60);
+
+
 
 c30.beginPath();
-c30.moveTo(0, 30);
-c30.lineTo(75, 75);
-c30.lineTo(0, 120);
+c30.moveTo(0, 10);
+c30.lineTo(150, 75);
+c30.lineTo(0, 140);
+c30.lineTo(0, 10);
+c30.closePath();
+c30.fillStyle = '#FFFFFF'; //grønn
+c30.fill();
+
+c30.fillStyle = '#007749'; //grønn
+c30.fillRect(0, 45, 225, 60);
+c30.beginPath();
+
+c30.moveTo(0, 20);
+c30.lineTo(125, 75);
+c30.lineTo(0, 130);
 c30.lineTo(0, 30);
+c30.closePath();
+c30.fillStyle = '#007749'; //grønn
+c30.fill();
+
+
+c30.beginPath();
+c30.moveTo(0, 40);
+c30.lineTo(75, 75);
+c30.lineTo(0, 110);
+c30.lineTo(0, 40);
 c30.closePath();
 c30.fillStyle = '#FFB81C'; //gul
 c30.fill();
 
 c30.beginPath();
-c30.moveTo(0, 40);
+c30.moveTo(0, 50);
 c30.lineTo(60, 75);
-c30.lineTo(0, 110);
-c30.lineTo(0, 40);
+c30.lineTo(0, 100);
+c30.lineTo(0, 50);
 c30.closePath();
 c30.fillStyle = 'black';
 c30.fill();
