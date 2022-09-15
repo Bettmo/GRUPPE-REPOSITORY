@@ -700,7 +700,7 @@ let img652 = new Image(); // oppretter en variabel på bildet
 img652.src = "https://media.discordapp.net/attachments/601105161527623680/1019127648699559977/unknown.png"; // setter kilde på bildet
 img652.onload = () => {
     // Tegner inn bildet med canvas
-    c34.drawImage(img652, 75, 25, 90, 90);
+    c34.drawImage(img652, 67.5, 25, 90, 90);
 }
 
 
