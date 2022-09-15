@@ -1,3 +1,4 @@
+// -------------------- Norge --------------------
 let NOcanvas = document.querySelector('#Norge');
 let c1 = NOcanvas.getContext('2d');
 
@@ -16,6 +17,9 @@ c1.fillRect(100,0,120,60);
 c1.fillStyle = '#EF2B2D'; // rød
 c1.fillRect(100,100,120,60);
 
+
+
+// -------------------- Island --------------------
 let IScanvas = document.querySelector('#IS');
 let c2 = IScanvas.getContext('2d');
 
@@ -34,6 +38,9 @@ c2.fillRect(100,0,117,60);
 c2.fillStyle = '#024f9c'; // blå
 c2.fillRect(100,100,117,60);
 
+
+
+// -------------------- Sverige --------------------
 let SEcanvas = document.querySelector('#SE');
 let c3 = SEcanvas.getContext('2d');
 
@@ -50,6 +57,9 @@ c3.fillRect(90,0,150,60);
 c3.fillStyle = '#006AA7'; // blå
 c3.fillRect(90,90,150, 60);
 
+
+
+// -------------------- Den sentralafrikanske republikk --------------------
 let CARcanvas = document.querySelector('#CAR');
 let c4 = CARcanvas.getContext('2d');
 
@@ -71,6 +81,8 @@ img.onload = () => {
 }
 
 
+
+// -------------------- Grønnland --------------------
 let gronnland = document.querySelector('#gronnland');
 let c5 = gronnland.getContext('2d');
 
@@ -89,6 +101,9 @@ c5.closePath();
 c5.fillStyle = '#D00C33';
 c5.fill();
 
+
+
+// -------------------- Japan --------------------
 let japan = document.querySelector('#japan');
 let c6 = japan.getContext('2d');
 
@@ -100,6 +115,9 @@ c6.closePath();
 c6.fillStyle = '#BC002D';
 c6.fill();
 
+
+
+// -------------------- Tyrkia --------------------
 let TYcanvas = document.querySelector('#TY');
 let c7 = TYcanvas.getContext('2d');
 
@@ -112,6 +130,9 @@ img2.onload = () => {
     c7.drawImage(img2, 35, 20, 143, 104);
 }
 
+
+
+// -------------------- Sovjetunionen --------------------
 let basedcanvas = document.querySelector('#based');
 let c8 = basedcanvas.getContext('2d');
 
@@ -124,6 +145,9 @@ img3.onload = () => {
     c8.drawImage(img3, 15, 15, 30, 30);
 }
 
+
+
+// -------------------- Cuba --------------------
 let CUcanvas = document.querySelector('#CU');
 let c9 = CUcanvas.getContext('2d');
 
@@ -151,6 +175,8 @@ img4.onload = () => {
 }
 
 
+
+// -------------------- Azerbajan --------------------
 let AZcanvas = document.querySelector('#AZ');
 let c10 = AZcanvas.getContext('2d');
 
@@ -167,6 +193,9 @@ img5.onload = () => {
     c10.drawImage(img5, 90, 60, 48, 34);
 }
 
+
+
+// -------------------- Tyskland --------------------
 let DEcanvas = document.querySelector('#Tyskland');
 let c11 = DEcanvas.getContext('2d');
 
@@ -177,6 +206,9 @@ c11.fillRect(0, 50, 225, 50);
 c11.fillStyle = '#FFCC00';
 c11.fillRect(0, 100, 225, 50);
 
+
+
+// -------------------- Nord Korea --------------------
 let NKcanvas = document.querySelector('#NKorea');
 let c12 = NKcanvas.getContext('2d');
 
@@ -206,6 +238,9 @@ img6.onload = () => {
     c12.drawImage(img6, 19, 15, 80, 80);
 }
 
+
+
+// -------------------- Frankrike --------------------
 let FRcanvas = document.querySelector('#Frankrike');
 let c13 = FRcanvas.getContext('2d');
 
@@ -216,6 +251,9 @@ c13.fillRect(150, 0, 75, 150);
 c13.fillStyle = '#ffffff'; // Hvit
 c13.fillRect(75, 0, 75, 150);
 
+
+
+// -------------------- Benin --------------------
 let BEcanvas = document.querySelector('#Benin');
 let c14 = BEcanvas.getContext('2d');
 
@@ -226,6 +264,9 @@ c14.fillRect(75, 0, 150, 150);
 c14.fillStyle = '#E90929'; // Rød
 c14.fillRect(75, 75, 150, 150);
 
+
+
+// -------------------- USA --------------------
 let URcanvas = document.querySelector('#USA');
 let c15 = URcanvas.getContext('2d');
 
@@ -264,6 +305,7 @@ img69.onload = () => {
 
 
 
+// -------------------- Bulgaria --------------------
 let BUcanvas = document.querySelector('#BU');
 let c16 = BUcanvas.getContext('2d');
 
@@ -276,6 +318,7 @@ c16.fillRect(0, 100, 225, 50);
 
 
 
+// -------------------- Irland --------------------
 let IRcanvas = document.querySelector('#IR');
 let c17 = IRcanvas.getContext('2d');
 
@@ -287,6 +330,8 @@ c17.fillStyle = '#FF883E'; // oranjse
 c17.fillRect(150, 0, 75, 150);
 
 
+
+// -------------------- Paraguay --------------------
 let PAcanvas = document.querySelector('#PA');
 let c18 = PAcanvas.getContext('2d');
 
@@ -304,6 +349,9 @@ img70.onload = () => {
     c18.drawImage(img70, 80,50, 50, 50);
 }
 
+
+
+// -------------------- Palau --------------------
 let PALcanvas = document.querySelector('#PAL');
 let c19 = PALcanvas.getContext('2d');
 
@@ -317,7 +365,7 @@ c19.fill();
 
 
 
-
+// -------------------- Italia --------------------
 let ITcanvas = document.querySelector('#IT');
 let c20 = ITcanvas.getContext('2d');
 
@@ -328,6 +376,9 @@ c20.fillRect(75, 0, 75, 150);
 c20.fillStyle = '#CE2B37'; // Rød
 c20.fillRect(150, 0, 75, 150);
 
+
+
+// -------------------- Antigua og Barbuda --------------------
 let ABcanvas = document.querySelector('#AB');
 let c21 = ABcanvas.getContext('2d');
 
@@ -359,9 +410,9 @@ c21.closePath()
 
 
 
+// -------------------- Seychellene --------------------
 let SYcanvas = document.getElementById("seychelles");
 let c22 = SYcanvas.getContext("2d");
-
 
 c22.beginPath();
 c22.moveTo(0,150);
@@ -404,6 +455,9 @@ c22.closePath();
 c22.fillStyle="#007a3d"; //grønn
 c22.fill();
 
+
+
+// -------------------- Bangladesh --------------------
 let Bangcanvas = document.querySelector('#Bang');
 let c23 = Bangcanvas.getContext('2d');
 
@@ -415,6 +469,9 @@ c23.closePath();
 c23.fillStyle = '#f42a41';
 c23.fill();
 
+
+
+// -------------------- Colombia --------------------
 let COLcanvas = document.querySelector('#COL');
 let c24 = COLcanvas.getContext('2d');
 
@@ -425,6 +482,9 @@ c24.fillRect(0,75,225,37.5);
 c24.fillStyle = '#CE1126'; //rød
 c24.fillRect(0,112.5,225,37.5);
 
+
+
+// -------------------- Chad --------------------
 let CHADcanvas = document.querySelector('#CHAD');
 let c25 = CHADcanvas.getContext('2d');
 
@@ -435,6 +495,9 @@ c25.fillRect(75,0,75,150);
 c25.fillStyle = '#C60C30'; //rød
 c25.fillRect(150,0,75,150);
 
+
+
+// -------------------- Chile --------------------
 let CHIcanvas = document.querySelector('#CHI');
 let c26 = CHIcanvas.getContext('2d');
 
@@ -452,6 +515,8 @@ img7.onload = () => {
 }
 
 
+
+// -------------------- Nauru --------------------
 let NAUcanvas = document.querySelector('#NAU');
 let c27 = NAUcanvas.getContext('2d');
 
@@ -468,6 +533,9 @@ img9.onload = () => {
     c27.drawImage(img9, 28, 39, 80, 80);
 }
 
+
+
+// -------------------- Solomon Øyene --------------------
 let SOcanvas = document.querySelector('#SO');
 let c28 = SOcanvas.getContext('2d');
 
@@ -511,6 +579,8 @@ img8.onload = () => {
 }
 
 
+
+// -------------------- Kamerun --------------------
 let CAMcanvas = document.querySelector('#CAM');
 let c29 = CAMcanvas.getContext('2d');
 
@@ -530,6 +600,7 @@ img29.onload = () => {
 
 
 
+// -------------------- Sør Afrika --------------------
 let SorAcanvas = document.querySelector('#SorA');
 let c30 = SorAcanvas.getContext('2d');
 
@@ -539,7 +610,6 @@ c30.fillStyle = '#001489'; //blå
 c30.fillRect(0, 75, 225, 75);
 c30.fillStyle = '#FFFFFF'; //hvit
 c30.fillRect(0, 35, 225, 80)
-
 
 
 c30.beginPath();
@@ -563,7 +633,6 @@ c30.closePath();
 c30.fillStyle = '#007749'; //grønn
 c30.fill();
 
-
 c30.beginPath();
 c30.moveTo(0, 40);
 c30.lineTo(75, 75);
@@ -584,59 +653,7 @@ c30.fill();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//hei
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// -------------------- Armenia --------------------
 let Mjaucanvas = document.querySelector('#Mjau'); // Armenia
 let c31 = Mjaucanvas.getContext('2d');
 
@@ -649,6 +666,7 @@ c31.fillRect(0,100,225,50);
 
 
 
+// -------------------- Indonesia --------------------
 let INDOcanvas = document.querySelector('#INDO'); // Indonesia
 let c32 = INDOcanvas.getContext('2d');
 
@@ -657,6 +675,9 @@ c32.fillRect(0,0,225,75)
 c32.fillStyle = "#FFFFFF" //hvit
 c32.fillRect(0,75,225,75)
 
+
+
+// -------------------- Yemen --------------------
 let YEMcanvas = document.querySelector('#YEM'); // Yemen
 let c33 = YEMcanvas.getContext('2d');
 
@@ -667,6 +688,9 @@ c33.fillRect(0,50,225,50);
 c33.fillStyle = "#000000"; //svart
 c33.fillRect(0,100,225,50)
 
+
+
+// -------------------- Vietnam --------------------
 let VIETcanvas = document.querySelector('#VIET'); // Vietnam
 let c34 = VIETcanvas.getContext('2d');
 
@@ -681,5 +705,5 @@ img652.onload = () => {
 
 
 
-
+// -------------------- Neste land --------------------
 
