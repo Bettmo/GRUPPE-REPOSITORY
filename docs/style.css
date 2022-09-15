@@ -53,6 +53,7 @@ header{
     background-color: #6d9bc9;
     border:solid 1px #6d9bc9;
     color: white;
+    cursor: wait;
 }
 .graaBak{
     background-color: #c7d1d7;
