@@ -623,8 +623,8 @@ c30.fill();
 
 c30.fillStyle = '#007749'; //grønn firkant (mellom stripene)
 c30.fillRect(0, 55, 225, 40);
-c30.beginPath();
 
+c30.beginPath();
 c30.moveTo(0, 20);
 c30.lineTo(125, 75);
 c30.lineTo(0, 130);
