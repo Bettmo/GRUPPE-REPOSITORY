@@ -25,3 +25,5 @@ Gjøre ferdig resten av denne oppgaven, og levere inn
 **Torsdag (08/09/22):**
 Annet gruppearbeid, plan er å begynne på Flagg-oppgaven.
 
+
+Link til nettside: https://bettmo.github.io/GRUPPE-REPOSITORY/
