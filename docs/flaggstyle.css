@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #c7d1d7;
+}
+header{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    color: #3973ad;
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#GitHub{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+#GitHubLink img:hover{
+    transform: scale(1.1);
+}
+.flaggene{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 160px;
+}
+.kontinent{
+    text-align: center;
+    margin: auto;
+    height: 35px;
+    width: 100%;
+    background: #6d9bc9;
+    color: white;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+.celle{
+    width: 300px;
+    height: 230px;
+    border: solid 1px #c7d1d7;
+    background-color: #c7d1d7;
+    color: #3973ad;
+    transition: 0.3s;
+}
+.celle canvas{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.celle h4{
+    text-align: center;
+}
+.celle:hover{
+    box-shadow: 0 0 10px #6d9bc9;
+    background-color: #6d9bc9;
+    border:solid 1px #6d9bc9;
+    color: white;
+    cursor: wait;
+}
+.graaBak{
+    background-color: #c7d1d7;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #6d9bc9;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.7rem;
+    left: 0;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 1580px){
+    .flaggene{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 1180px){
+    .flaggene{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
