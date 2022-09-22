@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/University\ in\ Agder.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/University\ in\ Agder.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -236,6 +236,9 @@ h3{
 .card:hover {
     background: linear-gradient(#f44336, #fff3f3);
     color: #ffffff;
+}
+.icons a i:hover{
+    color: #f44336;
 }
 .card:hover .img-container {
     transform: scale(1.15);
