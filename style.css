@@ -237,6 +237,9 @@ h3{
     background: linear-gradient(#f44336, #fff3f3);
     color: #ffffff;
 }
+.icons a i:hover{
+    color: #f44336;
+}
 .card:hover .img-container {
     transform: scale(1.15);
 }
