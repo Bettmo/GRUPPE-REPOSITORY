@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/University\ in\ Agder.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-bottom: 3px solid #000000;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    font-size: 14px;
+    margin: 10px 0 40px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 34px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background: #f44336;
+    border: 1px solid #f44336;
+    transition: 1s;
+}
+
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 25px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+
+    }
+}
+
+/* Assignments */
+.Assignments{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.Assignments h1{
+    border-bottom: 1px solid #f44336;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+    color: #777;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Assignments-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.Assignments-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .Assignments-col{
+        margin-bottom: 20px;
+    }
+}
+
+/* Meet the Team */
+.GroupCV{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.GroupCV h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 100px;
+    border-bottom: 1px solid #f44336;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    text-align: center;
+ }
+.column {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 12px;
+    margin-bottom: 2%;
+    justify-content: repeat(3, 1fr);
+    box-sizing: border-box;
+  }
+.card {
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    padding: 3.5em 1em;
+    border-radius: 0.6em;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.card .img-container {
+    width: 8em;
+    height: 8em;
+    background-color: #f44336;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+ }
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+.card h3 {
+    font-weight: 500;
+}
+.card p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+}
+.icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+}
+.card:hover {
+    background: linear-gradient(#f44336, #fff3f3);
+    color: #ffffff;
+}
+.card:hover .img-container {
+    transform: scale(1.15);
+}
+@media screen and (min-width: 768px) {
+    section {
+      padding: 1em 7em;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em;
+    }
+    .card {
+      padding: 5em 1em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 1em;
+    }
+}
