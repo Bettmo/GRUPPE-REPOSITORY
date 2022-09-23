@@ -236,6 +236,7 @@ h3{
 .card:hover {
     background: linear-gradient(#f44336, #fff3f3);
     color: #ffffff;
+    cursor: default;
 }
 .icons a i:hover{
     color: #f44336;
