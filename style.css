@@ -288,6 +288,7 @@ h3{
 }
 #footerFlex div{
     padding-top: 45px;
+    padding-right: 30px;
 }
 
 @media screen and (max-width: 500px) {
