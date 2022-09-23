@@ -266,7 +266,7 @@ h3{
 #footer{
     max-width: 100%;
     height: 150px;
-    background-color: #d2002b;
+    background-color: #ec0030;
     display: flex;
     justify-content: center;
     box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
@@ -276,7 +276,7 @@ h3{
 #footerFlex{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     color: #ffffff;
     font-size: 2em;
 }
