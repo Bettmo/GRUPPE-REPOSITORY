@@ -262,13 +262,15 @@ h3{
     }
 }
 
-footer{
-    width: 100%;
-    height: 135px;
+#footer{
+    max-width: 100%;
+    height: 150px;
     background-color: #f44336;
     display: flex;
     justify-content: center;
     box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
+    margin: 0 !important;
 }
 #footerFlex{
     display: flex;
@@ -277,7 +279,10 @@ footer{
     color: #ffffff;
     font-size: 2em;
 }
-#footerFlex img{
+#footerFlex a{
+    height: 150px;
+}
+#footerFlex a img{
     width: 200px;
 }
 #footerFlex div{
@@ -290,7 +295,7 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    footer{
+    #footer{
         height: 300px;
     }
 }
