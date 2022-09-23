@@ -109,7 +109,7 @@ nav img{
 
 /* Assignments */
 .Assignments{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -163,7 +163,7 @@ h3{
 
 /* Meet the Team */
 .GroupCV{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
