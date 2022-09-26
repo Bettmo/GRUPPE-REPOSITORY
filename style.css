@@ -63,10 +63,13 @@ nav img{
 .text-box h1{
     font-size: 62px;
 }
-.text-box p{
-    font-size: 14px;
+.text-box h2{
+    font-size: 20px;
     margin: 10px 0 40px;
     color: #fff;
+}
+span{
+    color: #f44336;
 }
 .hero-btn{
     display: inline-block;
