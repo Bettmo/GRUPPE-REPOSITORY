@@ -4,9 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 70vh;
     max-width: 100%;
-    background-color: #fff;
+    background-image: url(imgs/mjau.png);
     background-position: center;
     background-size: cover;
     position: relative;
