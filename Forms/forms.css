@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     max-width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/University\ in\ Agder.jpeg);
+    background-color: #fff;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -14,13 +14,16 @@
 }
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
+    background-color: #ec0030;
+    height: 29px;
 
 }
 nav img{
     width: 150px;
+    padding-top: 30px;
 }
 .nav-links{
     flex: 1;
@@ -36,13 +39,14 @@ nav img{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
 
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #3636f4;;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -69,7 +73,7 @@ nav img{
     color: #fff;
 }
 span{
-    color: #f44336;
+    color: #3636f4;
 }
 .hero-btn{
     display: inline-block;
