@@ -23,7 +23,7 @@ Begynne å legge inn informasjon i tabellen over.
 Gjøre ferdig resten av denne oppgaven, og levere inn.
 
 **Torsdag (08/09/22):**
-Begynte på Flagg-oppgaven, sette oss inn i canvas, begynne å fordele hvem som lager hvilke flagg.
+Begynte på Flagg-oppgaven, sette oss inn i canvas i js, begynne å fordele hvem som lager hvilke flagg.
 
 **Mandag (12/09/22):**
 Se litt videre på flagg-oppgaven, men jobbet med akademisk-skriving-oppgaven til torsdag 15. september.
@@ -37,7 +37,7 @@ Endre litt på designet på flagg-siden.
 Gjøre oppg. a og b i flagg-oppgaven, lage et flagg med p-element og å lage et flagg med CSS.
 
 **Torsdag (29/09/22):**
-Flagg-siden vår er ferdig, så bruktre tiden til andre fag.
+Flagg-siden vår er ferdig, så brukte tiden til andre fag.
 
 
 Link til nettside: https://bettmo.github.io/GRUPPE-REPOSITORY/
