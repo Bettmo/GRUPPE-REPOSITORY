@@ -11,9 +11,18 @@ div{
     background-color: #FFFFFF;
     border: solid 1px;
 }
-#gronn{
+#gronnItalia{
     background-color: #009246;
 }
-#rod{
+#rodItalia{
     background-color: #CE2B37;
+}
+#blaRomania{
+    background-color: #002B7F;
+}
+#gulRomania{
+    background-color: #FCD116;
+}
+#rodRomania{
+    background-color: #CE1126;
 }
