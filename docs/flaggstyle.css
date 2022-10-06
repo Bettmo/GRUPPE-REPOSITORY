@@ -23,6 +23,17 @@ header{
 #GitHubLink img:hover{
     transform: scale(1.1);
 }
+#pilHjem{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+#hjemLink img:hover{
+    transform: scale(1.1);
+}
 .flaggene{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -88,5 +99,16 @@ footer{
 @media (max-width: 1180px){
     .flaggene{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 450px){
+    header {
+        height: 155px;
+    }
+    .flaggene{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .celle{
+        margin: auto;
     }
 }

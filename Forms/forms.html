@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="shortcut icon" href="../images/Logo_Icon.png" type="images/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c266f75013.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="../Index.html"><img draggable="false" src="../images/NyLogo_Hvit.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../Index.html">Home</a></li>
+                    <li><a href="../docs/flaggindex.html">Flags</a></li>
+                    <li><a href="Contact.html">Temperature</a></li>
+                    <li><a href="../Forms/forms.html">Forms</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+        <section class="forms">
+            <div class="container">
+                <div class="forms-box">
+                    <div class="row">
+                        <div class="forms-col">
+                            <h1>Forms</h1>
+                            <p>Forms are used to collect user input. The user input is most often sent to a server for processing.</p>
+                            <p>Forms can be used to collect data from users for a variety of purposes, such as:</p>
+                            <ul>
+                                <li>Creating user accounts</li>
+                                <li>Collecting feedback</li>
+                                <li>Ordering products</li>
+                                <li>Updating user profiles</li>
+                                <li>And much more!</li>
+                            </ul>
+                        </div>
+                        <div class="forms-col">
+                            <form action="forms.html" method="POST">
+                                <h1>Sign Up</h1>
+                                <div class="inputBox">
+                                    <input type="text" name="name" required>
+                                    <span>Full Name</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="email" name="email" required>
+                                    <span>Email</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="password" name="password" required>
+                                    <span>Password</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="kort nmr" required>
+                                    <span>Credit card nmr</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="submit" name="submit" value="Sign Up">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+section{
+    display: flex;
+   
+}
+div{
+    height: 200px;
+    width: 100px;
+    margin: 30px 0;
+}
+#hvit{
+    background-color: #FFFFFF;
+    border: solid 1px;
+}
+#gronnItalia{
+    background-color: #009246;
+}
+#rodItalia{
+    background-color: #CE2B37;
+}
+#blaRomania{
+    background-color: #002B7F;
+}
+#gulRomania{
+    background-color: #FCD116;
+}
+#rodRomania{
+    background-color: #CE1126;
+}
+#blaFrankrike{
+    background-color: #0055A4;
+}
+#rodFrankrike{
+    background-color: #EF4135;
+}
