@@ -62,6 +62,8 @@ Oppgaven sa det skulle lages 3 flagg. Med en gruppe på 6 stykker syntes vi det 
 
 
 ### *Refleksjon:*
-4A) Ved å kunn bruke <P> i HTML så reduserer du mengden med flagg som du kan lage, og gjør det veldig mer tungvint. <P> er bare kommandoen for å lage en paragraf på nettsiden din. 
-4B) Ved å nå kombinere CSS med HTML så lar det oss være mer kreativ med flaggene og hvordan de plasseres på nettsiden. 
+4A) Ved å kunn bruke <P> i HTML så reduserer du mengden med flagg som du kan lage, og gjør det veldig mer tungvint. <P> er bare kommandoen for å lage en paragraf på nettsiden din.
+  
+4B) Ved å nå kombinere CSS med HTML så lar det oss være mer kreativ med flaggene og hvordan de plasseres på nettsiden.
+  
 4C) Vi valgte å sette Canvas i egen Javascript fil. Ved å bruke Canvas, CSS og HTML så kunne vi lage en veldig fin nettside som hadde alle flaggene inni bokser, med effekter når du "hoveret" over dem. Vi kunne lage Sirkler, Stjerner, trekanter og alt mulig. Systemet er også mye lettere å sette seg inn i og gir et bedre overblikk i hvordan du strukturer hele nettsiden. 
