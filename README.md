@@ -67,3 +67,6 @@ Oppgaven sa det skulle lages 3 flagg. Med en gruppe på 6 stykker syntes vi det 
 4B) Ved å nå kombinere CSS med HTML så lar det oss være mer kreativ med flaggene og hvordan de plasseres på nettsiden.
   
 4C) Vi valgte å sette Canvas i egen Javascript fil. Ved å bruke Canvas, CSS og HTML så kunne vi lage en veldig fin nettside som hadde alle flaggene inni bokser, med effekter når du "hoveret" over dem. Vi kunne lage Sirkler, Stjerner, trekanter og alt mulig. Systemet er også mye lettere å sette seg inn i og gir et bedre overblikk i hvordan du strukturer hele nettsiden. 
+
+Annet:
+Deploymenten fra Git sin side er ikke aktiv. Den bruker en annen pathfinding på navn enn det vi har brukt på filene våre. Hvis du åpner "docs/index.html" med liveserver så skal alt fungere. 
