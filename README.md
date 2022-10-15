@@ -70,3 +70,5 @@ Oppgaven sa det skulle lages 3 flagg. Med en gruppe på 6 stykker syntes vi det 
 
 Annet:
 Deploymenten fra Git sin side er ikke aktiv. Den bruker en annen pathfinding på navn enn det vi har brukt på filene våre. Hvis du åpner "docs/index.html" med liveserver så skal alt fungere. 
+
+tester noe
